@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE model[
+<!ELEMENT model (section)+>
+
+<!ELEMENT section (source)*>
+<!ATTLIST section
+id CDATA #REQUIRED
+name CDATA #REQUIRED>
+<!ELEMENT source EMPTY>
+<!ATTLIST source
+id CDATA #REQUIRED
+name CDATA #REQUIRED>
+]>
+<model>
+<section id="1" name="Citations de corpus type Frantext">
+<source id="1" name="Frantext"/>
+</section>
+<section id="2" name="Citations de corpus type FrWac">
+<source id="2" name="FrWac"/>
+<source id="14" name="Orthocorpus"/>
+</section>
+<section id="3" name="Citations de corpus journalistiques hors Frantext">
+<source id="3" name="L’Est Républicain"/>
+<source id="4" name="Chambers-Rostand"/>
+</section>
+<section id="4" name="Citations de corpus oraux type TCOF">
+</section>
+<section id="5" name="Exemples hors bases">
+<source id="6" name="Hors bases : publication"/>
+<source id="13" name="Hors bases : chanson"/>
+<source id="7" name="Hors bases : audiovisuel"/>
+<source id="8" name="Hors bases : conversation"/>
+<source id="5" name="Hors bases : Web"/>
+<source id="9" name="Hors bases : courrier"/>
+<source id="10" name="Hors bases : fabrication"/>
+<source id="11" name="Hors bases : temporaire"/>
+<source id="12" name="Illustration du sens"/>
+</section>
+</model>

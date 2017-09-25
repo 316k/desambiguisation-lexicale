@@ -1,0 +1,3464 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE model[
+<!ELEMENT model (group)+>
+<!ELEMENT group (family)*>
+<!ELEMENT family (lexicalfunction)+>
+<!ATTLIST family
+id CDATA #REQUIRED
+name CDATA #REQUIRED>
+<!ELEMENT lexicalfunction (#PCDATA)>
+<!ATTLIST lexicalfunction
+id CDATA #REQUIRED
+linktype NMTOKEN #REQUIRED
+name CDATA #REQUIRED
+semantics CDATA #REQUIRED
+standardness CDATA #REQUIRED
+status CDATA #REQUIRED>
+]>
+<model>
+  <group>
+    <family id="1" name="1-I">
+      <lexicalfunction id="926" name="$1=‘cyclistes’ " status="0" linktype="syntagmatic" standardness="valency controlled" semantics="1">
+        <![CDATA[
+                 <font size=3 color=gray><b>$1=‘cyclistes’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="894" name="$1=‘chanteurs’ " status="0" linktype="syntagmatic" standardness="valency controlled" semantics="1">
+        <![CDATA[
+                 <font size=3 color=gray><b>$1=‘chanteurs’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="888" name="$1=‘sportifs’ " status="0" linktype="syntagmatic" standardness="valency controlled" semantics="1">
+        <![CDATA[
+                 <font size=3 color=gray><b>$1=‘sportifs’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="889" name="$1=‘paysans’ " status="0" linktype="syntagmatic" standardness="valency controlled" semantics="1">
+        <![CDATA[
+                 <font size=3 color=gray><b>$1=‘paysans’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="895" name="$1=‘instrumentistes’ " status="0" linktype="syntagmatic" standardness="valency controlled" semantics="1">
+        <![CDATA[
+                 <font size=3 color=gray><b>$1=‘instrumentistes’</b></font> 
+        ]]>
+      </lexicalfunction>
+    </family>
+    <family id="2" name="2-II">
+      <lexicalfunction id="652" name="$2=‘affaires de toilette’ " status="1" linktype="syntagmatic" standardness="valency controlled" semantics="0">
+        <![CDATA[
+                 <font size=3 color=gray><b>$2=‘affaires de toilette’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="830" name="$2=‘s’arrêter’ " status="1" linktype="syntagmatic" standardness="valency controlled" semantics="0">
+        <![CDATA[
+                 <font size=3 color=gray><b>$2=‘s’arrêter’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="832" name="$2=‘se préparer à s’arrêter’ " status="1" linktype="syntagmatic" standardness="valency controlled" semantics="0">
+        <![CDATA[
+                 <font size=3 color=gray><b>$2=‘se préparer à s’arrêter’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="877" name="$2=‘autoroute’ " status="0" linktype="syntagmatic" standardness="valency controlled" semantics="0">
+        <![CDATA[
+                 <font size=3 color=gray><b>$2=‘autoroute’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="831" name="$2=‘continuer à rouler’ " status="1" linktype="syntagmatic" standardness="valency controlled" semantics="0">
+        <![CDATA[
+                 <font size=3 color=gray><b>$2=‘continuer à rouler’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="860" name="$2=‘corps’ " status="1" linktype="syntagmatic" standardness="valency controlled" semantics="0">
+        <![CDATA[
+                 <font size=3 color=gray><b>$2=‘corps’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="859" name="$2=‘linge’ " status="1" linktype="syntagmatic" standardness="valency controlled" semantics="0">
+        <![CDATA[
+                 <font size=3 color=gray><b>$2=‘linge’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="850" name="$2=‘mains’ " status="1" linktype="syntagmatic" standardness="valency controlled" semantics="0">
+        <![CDATA[
+                 <font size=3 color=gray><b>$2=‘mains’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="644" name="$2=‘médicaments et autres’ " status="0" linktype="syntagmatic" standardness="valency controlled" semantics="0">
+        <![CDATA[
+                 <font size=3 color=gray><b>$2=‘médicaments et autres’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="752" name="$2=‘muscle’ " status="0" linktype="syntagmatic" standardness="valency controlled" semantics="0">
+        <![CDATA[
+                 <font size=3 color=gray><b>$2=‘muscle’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="849" name="$2=‘vaiselle’ " status="1" linktype="syntagmatic" standardness="valency controlled" semantics="0">
+        <![CDATA[
+                 <font size=3 color=gray><b>$2=‘vaiselle’</b></font> 
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="851" name="$2=‘verres’ " status="1" linktype="syntagmatic" standardness="valency controlled" semantics="0">
+        <![CDATA[
+                 <font size=3 color=gray><b>$2=‘verres’</b></font> 
+        ]]>
+      </lexicalfunction>
+    </family>
+    <family id="101" name="3-III">
+      <lexicalfunction id="908" name="$3=‘peur’ " status="0" linktype="syntagmatic" standardness="valency controlled" semantics="0">
+        <![CDATA[
+                 <font size=3 color=gray><b>$3=‘peur’</b></font> 
+        ]]>
+      </lexicalfunction>
+    </family>
+  </group>
+  <group>
+    <family id="3" name="Syn">
+      <lexicalfunction id="2" name="Syn" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Syn</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="4" name="Syn_⊂" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Syn<sub>⊂</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="683" name="Syn_⊂^sex" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Syn<sub>⊂</sub><sup>sex</sup></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="5" name="Syn_⊃" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Syn<sub>⊃</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="387" name="Syn_⊃^sex" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Syn<sub>⊃</sub><sup>sex</sup></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="862" name="De_nouveau" status="0" linktype="paradigmatic" standardness="locally standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>De_nouveau</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="3" name="Syn_∩" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Syn<sub>∩</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="560" name="CapMult" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Cap</b><font size=3><b>Mult</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="6" name="Hypo" status="0" linktype="paradigmatic" standardness="proposed simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Hypo</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="8" name="Cf" status="0" linktype="paradigmatic" standardness="non-standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Cf</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="915" name="Anc" status="0" linktype="paradigmatic" standardness="proposed simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Anc</b>
+        ]]>
+      </lexicalfunction>
+    </family>
+    <family id="4" name="Conv-ij">
+      <lexicalfunction id="912" name="Conv_2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Conv<sub>2</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="9" name="Conv_21" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Conv<sub>21</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="872" name="S_2 &amp; Conv_21" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>2</sub></b> <font size=3 color=black>&</font> <font size=3><b>Conv<sub>21</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="459" name="Conv_21⊂" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Conv<sub>21⊂</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="369" name="Conv_21⊃" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Conv<sub>21⊃</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="460" name="Conv_21∩" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Conv<sub>21∩</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="357" name="Conv_213" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Conv<sub>213</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="417" name="Conv_23" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Conv<sub>23</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="428" name="Conv_312" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Conv<sub>312</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="733" name="Conv_32" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Conv<sub>32</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="375" name="Conv_321" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Conv<sub>321</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="631" name="Conv_423" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Conv<sub>423</sub></b>
+        ]]>
+      </lexicalfunction>
+    </family>
+    <family id="5" name="Anti">
+      <lexicalfunction id="10" name="Anti" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Anti</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="12" name="Anti_⊂" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Anti<sub>⊂</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="11" name="Anti_⊃" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Anti<sub>⊃</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="13" name="Anti_∩" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Anti<sub>∩</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="963" name="S_0Anti" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>0</sub></b><font size=3><b>Anti</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="962" name="V_0Anti" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>V<sub>0</sub></b><font size=3><b>Anti</b>
+        ]]>
+      </lexicalfunction>
+    </family>
+    <family id="6" name="Non">
+      <lexicalfunction id="15" name="A_1Non" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>A<sub>1</sub></b><font size=3><b>Non</b>
+        ]]>
+      </lexicalfunction>
+    </family>
+    <family id="7" name="Contr">
+      <lexicalfunction id="16" name="Contr" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Contr</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="17" name="Fem" status="0" linktype="paradigmatic" standardness="proposed simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Fem</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="18" name="Masc" status="0" linktype="paradigmatic" standardness="proposed simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Masc</b>
+        ]]>
+      </lexicalfunction>
+    </family>
+    <family id="8" name="Epit">
+      <lexicalfunction id="19" name="Epit" status="0" linktype="paradigmatic" standardness="simple standard" semantics="0">
+        <![CDATA[
+                 <font size=3><b>Epit</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="447" name="Redun" status="0" linktype="paradigmatic" standardness="proposed simple standard" semantics="1">
+        <![CDATA[
+                 <font size=3><b>Redun</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="563" name="Redun_⊃" status="0" linktype="paradigmatic" standardness="proposed simple standard" semantics="1">
+        <![CDATA[
+                 <font size=3><b>Redun<sub>⊃</sub></b>
+        ]]>
+      </lexicalfunction>
+    </family>
+    <family id="9" name="Gener">
+      <lexicalfunction id="20" name="Gener" status="0" linktype="paradigmatic" standardness="simple standard" semantics="1">
+        <![CDATA[
+                 <font size=3><b>Gener</b>
+        ]]>
+      </lexicalfunction>
+    </family>
+    <family id="10" name="Figur">
+      <lexicalfunction id="610" name="Figur" status="0" linktype="paradigmatic" standardness="simple standard" semantics="0">
+        <![CDATA[
+                 <font size=3><b>Figur</b>
+        ]]>
+      </lexicalfunction>
+    </family>
+  </group>
+  <group>
+    <family id="11" name="S0">
+      <lexicalfunction id="21" name="S_0" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="609" name="S_0^usual" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>0</sub><sup>usual</sup></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="399" name="S_0⊂" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>0⊂</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="348" name="S_0⊃" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>0⊃</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="371" name="S_0∩" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>0∩</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="366" name="S_0Pred" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>0</sub></b><font size=3><b>Pred</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="386" name="S_0Pred_⊂" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>0</sub></b><font size=3><b>Pred<sub>⊂</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="453" name="S_0Pred_∩" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>0</sub></b><font size=3><b>Pred<sub>∩</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="900" name="S_1 v S_0" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>1</sub></b> <font size=3 color=black>v</font> <font size=3><b>S<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="452" name="S_2 v S_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>2</sub></b> <font size=3 color=black>v</font> <font size=3><b>S<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="871" name="S_3 &amp; S_0" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>3</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="906" name="S_4 &amp; S_0" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>4</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="897" name="S_res &amp; S_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>res</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="890" name="S_res v S_0" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>res</sub></b> <font size=3 color=black>v</font> <font size=3><b>S<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="457" name="SingS_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Sing</b><font size=3><b>S<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="354" name="S_0Conv_21" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>0</sub></b><font size=3><b>Conv<sub>21</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="836" name="S_0Conv_213" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>S<sub>0</sub></b><font size=3><b>Conv<sub>213</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="898" name="Magn_1^quant + S_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Magn<sub>1</sub><sup>quant</sup></b> <font size=3 color=black>+</font> <font size=3><b>S<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+    </family>
+    <family id="12" name="V0">
+      <lexicalfunction id="23" name="V_0" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>V<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="25" name="V_0⊂" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>V<sub>0⊂</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="24" name="V_0⊃" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>V<sub>0⊃</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="26" name="V_0∩" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>V<sub>0∩</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="955" name="Magn + V_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Magn</b> <font size=3 color=black>+</font> <font size=3><b>V<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="346" name="V_0Conv_21" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>V<sub>0</sub></b><font size=3><b>Conv<sub>21</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="835" name="V_0Conv_213" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>V<sub>0</sub></b><font size=3><b>Conv<sub>213</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="904" name="V_0Conv_413" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>V<sub>0</sub></b><font size=3><b>Conv<sub>413</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="27" name="Enun" status="0" linktype="paradigmatic" standardness="proposed simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Enun</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="845" name="EnunCaus_1Pred" status="0" linktype="paradigmatic" standardness="proposed standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Enun</b><font size=3><b>Caus<sub>1</sub></b><font size=3><b>Pred</b>
+        ]]>
+      </lexicalfunction>
+    </family>
+    <family id="13" name="A0">
+      <lexicalfunction id="28" name="A_0" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>A<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="394" name="A_0⊂" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>A<sub>0⊂</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="342" name="A_0⊃" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>A<sub>0⊃</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="403" name="A_0∩" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>A<sub>0∩</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="914" name="Adv_0 v A_0" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Adv<sub>0</sub></b> <font size=3 color=black>v</font> <font size=3><b>A<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="351" name="A_1 v A_0" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>A<sub>1</sub></b> <font size=3 color=black>v</font> <font size=3><b>A<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="378" name="A_0Mult" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>A<sub>0</sub></b><font size=3><b>Mult</b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="657" name="A_0Real_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>A<sub>0</sub></b><font size=3><b>Real<sub>1</sub></b>
+        ]]>
+      </lexicalfunction>
+    </family>
+    <family id="14" name="Adv0">
+      <lexicalfunction id="29" name="Adv_0" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Adv<sub>0</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="415" name="Adv_0⊃" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Adv<sub>0⊃</sub></b>
+        ]]>
+      </lexicalfunction>
+      <lexicalfunction id="356" name="Adv_0∩" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+        <![CDATA[
+                 <font size=3><b>Adv<sub>0∩</sub></b>
+        ]]>
+      </lexicalfunction>
+    </family>
+</group>
+<group>
+  <family id="15" name="S1">
+    <lexicalfunction id="31" name="S_1" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="749" name="S_1.1" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1.1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="30" name="S_1^usual" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="37" name="S_1^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="600" name="S_1.1^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1.1</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="38" name="S_1.2^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1.2</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="578" name="S_1⊂" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1⊂</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="341" name="S_1⊃" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1⊃</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="505" name="S_1∩" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1∩</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="816" name="S_1.2⊃" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1.2⊃</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="938" name="S_1⊂^usual" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1⊂</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="376" name="S_1⊃^usual" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1⊃</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="509" name="S_1∩^usual" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1∩</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="34" name="S_1/2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1/2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="361" name="S_1+2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1+2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="32" name="S_1/2^usual" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1/2</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="893" name="S_1/2^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1/2</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="423" name="S_1Perf" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub></b><font size=3><b>Perf</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="359" name="S_1/2Perf" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1/2</sub></b><font size=3><b>Perf</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="612" name="S_1^prototypPred" status="1" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub><sup>prototyp</sup></b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="35" name="individu S_1" status="0" linktype="paradigmatic" standardness="simple semi-standard" semantics="2">
+      <![CDATA[
+               <font size=3 color=gray><b>individu</b></font> <font size=3><b>S<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="36" name="qui est en train de ~ S_1" status="0" linktype="paradigmatic" standardness="simple semi-standard" semantics="2">
+      <![CDATA[
+               <font size=3 color=gray><b>qui est en train de ~</b></font> <font size=3><b>S<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="589" name="Magn + S_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Magn</b> <font size=3 color=black>+</font> <font size=3><b>S<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="362" name="SingS_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Sing</b><font size=3><b>S<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="954" name="SingS_1^prototyp" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Sing</b><font size=3><b>S<sub>1</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="896" name="SingS_1⊃" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Sing</b><font size=3><b>S<sub>1⊃</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="373" name="MultS_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mult</b><font size=3><b>S<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="39" name="MultS_1^prototyp" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mult</b><font size=3><b>S<sub>1</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="910" name="MultS_1⊃" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mult</b><font size=3><b>S<sub>1⊃</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="499" name="MultS_1/2" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mult</b><font size=3><b>S<sub>1/2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="347" name="S_3 v S_1" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>3</sub></b> <font size=3 color=black>v</font> <font size=3><b>S<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="594" name="S_1Pred" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub></b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="593" name="S_1/2Pred" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1/2</sub></b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="599" name="S_1^usualPred" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub><sup>usual</sup></b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="934" name="Mult &amp; S_1" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mult</b> <font size=3 color=black>&</font> <font size=3><b>S<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="907" name="Sing &amp; S_1" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Sing</b> <font size=3 color=black>&</font> <font size=3><b>S<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="601" name="Sing &amp; S_1/2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Sing</b> <font size=3 color=black>&</font> <font size=3><b>S<sub>1/2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="602" name="S_1+2⊃Pred" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1+2⊃</sub></b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="758" name="AntiMagn + S_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>AntiMagn</b> <font size=3 color=black>+</font> <font size=3><b>S<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="529" name="S_1CausOper_1" status="1" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub></b><font size=3><b>Caus</b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="16" name="S2">
+    <lexicalfunction id="40" name="S_2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="50" name="S_2.1" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2.1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="685" name="S_2.2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2.2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="52" name="S_2^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="54" name="S_2.2^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2.2</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="338" name="S_2⊃" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2⊃</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="792" name="S_2.2⊃" status="0" linktype="syntagmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2.2⊃</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="951" name="S_2⊂" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2⊂</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="406" name="S_2∩" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2∩</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="332" name="S_2^usual" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="407" name="S_2Perf" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2</sub></b><font size=3><b>Perf</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="44" name="S_2/3" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2/3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="494" name="S_2/3Perf" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2/3</sub></b><font size=3><b>Perf</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="924" name="S_2/4^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2/4</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="41" name="S_loc &amp; S_2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="416" name="S_loc &amp; S_2^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>2</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="42" name="S_instr &amp; S_2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="456" name="S_med &amp; S_2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>med</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="43" name="S_res &amp; S_2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>res</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="48" name="individu S_2" status="0" linktype="paradigmatic" standardness="simple semi-standard" semantics="2">
+      <![CDATA[
+               <font size=3 color=gray><b>individu</b></font> <font size=3><b>S<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="55" name="SingS_2" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Sing</b><font size=3><b>S<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="56" name="MultS_2" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mult</b><font size=3><b>S<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="57" name="AntiBonS_2" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>AntiBon</b><font size=3><b>S<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="528" name="Cap &amp; S_2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Cap</b> <font size=3 color=black>&</font> <font size=3><b>S<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="771" name="AntiMagn^quantS_2" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sup>quant</sup></b><font size=3><b>S<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="17" name="S3">
+    <lexicalfunction id="59" name="S_3" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="952" name="S_3⊂" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>3⊂</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="512" name="S_3⊃" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>3⊃</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="870" name="S_3∩" status="1" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>3∩</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="395" name="S_3^usual" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>3</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="60" name="S_3^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>3</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="923" name="S_3/5" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>3/5</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="411" name="S_instr &amp; S_3" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="334" name="S_instr &amp; S_3^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>3</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="377" name="S_loc &amp; S_3" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="948" name="S_mod &amp; S_3" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>mod</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="566" name="S_med &amp; S_3^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>med</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>3</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="573" name="MultS_3" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mult</b><font size=3><b>S<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="18" name="S4">
+    <lexicalfunction id="61" name="S_4" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>4</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="380" name="S_4^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>4</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="405" name="S_loc &amp; S_4" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>4</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="404" name="S_instr &amp; S_4^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>4</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="435" name="S_med &amp; S_4^prototyp" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>med</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>4</sub><sup>prototyp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="333" name="S_4Perf" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>4</sub></b><font size=3><b>Perf</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="878" name="S_instr &amp; S_4" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b> <font size=3 color=black>&</font> <font size=3><b>S<sub>4</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+  <family id="19" name="Sinstr">
+    <lexicalfunction id="62" name="S_instr" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="205" name="S_instrCausFunc_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b><font size=3><b>Caus</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="524" name="S_instrReal_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="579" name="S_instrReal_1^I" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b><font size=3><b>Real<sub>1</sub><sup>I</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="580" name="S_instrReal_1^II" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b><font size=3><b>Real<sub>1</sub><sup>II</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="820" name="S_instrReal_1[1]" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b><font size=3><b>Real<sub>1[1]</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="20" name="Sloc">
+    <lexicalfunction id="63" name="S_loc" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="971" name="S_locPred" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="64" name="S_locIncepFunc_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b><font size=3><b>Incep</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="458" name="S_locCausFunc_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b><font size=3><b>Caus</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="66" name="S_locFact_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="65" name="S_locNonFact_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b><font size=3><b>Non</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="928" name="S_loc^temp" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub><sup>temp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="968" name="S_loc^tempReal_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub><sup>temp</sup></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="930" name="S_loc^tempFact_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub><sup>temp</sup></b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="21" name="Smed">
+    <lexicalfunction id="68" name="S_med" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>med</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="22" name="Smod">
+    <lexicalfunction id="372" name="S_mod" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>mod</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="23" name="Sres">
+    <lexicalfunction id="69" name="S_res" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>res</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="956" name="S_locS_res" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b><font size=3><b>S<sub>res</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+  <family id="24" name="Sing">
+    <lexicalfunction id="74" name="Sing" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Sing</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="680" name="Sing_⊂" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Sing<sub>⊂</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="370" name="Sing_⊃" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Sing<sub>⊃</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="503" name="Sing_∩" status="1" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Sing<sub>∩</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="78" name="Mero" status="0" linktype="paradigmatic" standardness="proposed simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mero</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="737" name="MeroSing" status="0" linktype="syntagmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mero</b><font size=3><b>Sing</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="25" name="Mult">
+    <lexicalfunction id="100" name="Mult" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mult</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="368" name="Mult_⊂" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mult<sub>⊂</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="102" name="Mult_⊃" status="0" linktype="paradigmatic" standardness="semi-standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mult<sub>⊃</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="397" name="Mult_∩" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mult<sub>∩</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="682" name="Holo" status="0" linktype="paradigmatic" standardness="proposed simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Holo</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="875" name="IncepPredMult" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Pred</b><font size=3><b>Mult</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="26" name="Cap">
+    <lexicalfunction id="103" name="Cap" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Cap</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="27" name="Equip">
+    <lexicalfunction id="396" name="Equip" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Equip</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="658" name="SingEquip" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Sing</b><font size=3><b>Equip</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+  <family id="31" name="A1">
+    <lexicalfunction id="104" name="A_1" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="421" name="A_1⊂" status="1" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1⊂</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="105" name="A_1⊃" status="0" linktype="paradigmatic" standardness="simple semi-standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1⊃</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="422" name="A_1∩" status="1" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1∩</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="496" name="A_1’" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1’</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="106" name="Magn + A_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Magn</b> <font size=3 color=black>+</font> <font size=3><b>A<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="339" name="A_1/2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1/2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="604" name="A_1/2⊂" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1/2⊂</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="932" name="A_1/3" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1/3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="343" name="S_0A_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>A<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="520" name="A_1Pred" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="358" name="A_1Perf" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b><font size=3><b>Perf</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="360" name="A_1/2Perf" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1/2</sub></b><font size=3><b>Perf</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="408" name="Able_1 v A_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Able<sub>1</sub></b> <font size=3 color=black>v</font> <font size=3><b>A<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="418" name="Bon + A_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Bon</b> <font size=3 color=black>+</font> <font size=3><b>A<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="583" name="Magn^quant + A_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Magn<sup>quant</sup></b> <font size=3 color=black>+</font> <font size=3><b>A<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="649" name="Adv_1 v A_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Adv<sub>1</sub></b> <font size=3 color=black>v</font> <font size=3><b>A<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="765" name="AntiMagn + A_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>AntiMagn</b> <font size=3 color=black>+</font> <font size=3><b>A<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="241" name="A_1Real_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="936" name="A_2Fact_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>2</sub></b><font size=3><b>Fact<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="32" name="A2">
+    <lexicalfunction id="107" name="A_2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="848" name="A_2∩" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>2∩</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="762" name="A_2/3" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>2/3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="330" name="A_2Perf" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>2</sub></b><font size=3><b>Perf</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="495" name="A_2/3Perf" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>2/3</sub></b><font size=3><b>Perf</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="611" name="A_2Manif" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>2</sub></b><font size=3><b>Manif</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="650" name="Adv_2 v A_2" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Adv<sub>2</sub></b> <font size=3 color=black>v</font> <font size=3><b>A<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="259" name="A_1Real_2" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b><font size=3><b>Real<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="33" name="A3">
+    <lexicalfunction id="108" name="A_3" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="777" name="A_3Perf" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>3</sub></b><font size=3><b>Perf</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="34" name="A4">
+    <lexicalfunction id="627" name="A_4" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>4</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="35" name="Able1">
+    <lexicalfunction id="109" name="Able_1" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Able<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="953" name="Able_1[1]" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Able<sub>1[1]</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="950" name="Able_1/2" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Able<sub>1/2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="110" name="Able_2 v Able_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Able<sub>2</sub></b> <font size=3 color=black>v</font> <font size=3><b>Able<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="353" name="Able_3 v Able_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Able<sub>3</sub></b> <font size=3 color=black>v</font> <font size=3><b>Able<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="410" name="Able_4 v Able_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Able<sub>4</sub></b> <font size=3 color=black>v</font> <font size=3><b>Able<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="857" name="AntiAble_2 v AntiAble_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Able<sub>2</sub></b> <font size=3 color=black>v</font> <font size=3><b>Anti</b><font size=3><b>Able<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="36" name="Able2">
+    <lexicalfunction id="111" name="Able_2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Able<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="112" name="Able_3 v Able_2" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Able<sub>3</sub></b> <font size=3 color=black>v</font> <font size=3><b>Able<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="345" name="AntiAble_2" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Able<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="37" name="Able3">
+    <lexicalfunction id="412" name="Able_3" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Able<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="38" name="Able4">
+    <lexicalfunction id="409" name="Able_4" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Able<sub>4</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="39" name="Qual1">
+    <lexicalfunction id="113" name="Qual_1" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Qual<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="40" name="Qual2">
+    <lexicalfunction id="344" name="Qual_2" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Qual<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="41" name="Qual3">
+    <lexicalfunction id="929" name="Qual_3" status="0" linktype="paradigmatic" standardness="simple standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Qual<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+  <family id="28" name="Germ">
+    <lexicalfunction id="940" name="Germ" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Germ</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="30" name="Culm">
+    <lexicalfunction id="776" name="Culm" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Culm</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+  <family id="43" name="Magn">
+    <lexicalfunction id="126" name="Magn" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="764" name="Magn^quant" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sup>quant</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="125" name="Magn^temp" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sup>temp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="114" name="Magn_1^quant" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>1</sub><sup>quant</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="116" name="Magn_2" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="115" name="Magn_2^quant" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>2</sub><sup>quant</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="427" name="Magn_comportement" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>comportement</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="119" name="Magn_effet" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>effet</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="439" name="Magn_épaisseur" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>épaisseur</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="120" name="Magn_hauteur" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>hauteur</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="440" name="Magn_largeur" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>largeur</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="441" name="Magn_longueur" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>longueur</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="507" name="Magn_puissance" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>puissance</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="123" name="Magn_taille" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>taille</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="124" name="Magn_vitesse" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>vitesse</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="466" name="Bon + Magn" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Bon</b> <font size=3 color=black>+</font> <font size=3><b>Magn</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="128" name="AntiBon + Magn" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b> <font size=3 color=black>+</font> <font size=3><b>Magn</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="643" name="AntiBon + Magn^quant" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b> <font size=3 color=black>+</font> <font size=3><b>Magn<sup>quant</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="464" name="AntiBon + Magn^temp" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b> <font size=3 color=black>+</font> <font size=3><b>Magn<sup>temp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="770" name="AntiMagn^quant + Magn_vitesse" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sup>quant</sup></b> <font size=3 color=black>+</font> <font size=3><b>Magn<sub>vitesse</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="772" name="Magn_vitesse + Magn^quant" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>vitesse</sub></b> <font size=3 color=black>+</font> <font size=3><b>Magn<sup>quant</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="802" name="Bon + Magn^quant" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Bon</b> <font size=3 color=black>+</font> <font size=3><b>Magn<sup>quant</sup></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="44" name="Plus">
+    <lexicalfunction id="132" name="IncepPredPlus" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Pred</b><font size=3><b>Plus</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="133" name="CausPredPlus" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Pred</b><font size=3><b>Plus</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="691" name="IncepPredPlus_taille" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Pred</b><font size=3><b>Plus<sub>taille</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="45" name="AntiMagn">
+    <lexicalfunction id="138" name="AntiMagn" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="769" name="AntiMagn^quant" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sup>quant</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="137" name="AntiMagn^temp" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sup>temp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="426" name="Bon + AntiMagn" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Bon</b> <font size=3 color=black>+</font> <font size=3><b>AntiMagn</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="442" name="AntiMagn_épaisseur" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sub>épaisseur</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="443" name="AntiMagn_largeur" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sub>largeur</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="444" name="AntiMagn_longueur" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sub>longueur</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="564" name="AntiMagn_hauteur" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sub>hauteur</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="445" name="AntiBon + AntiMagn_largeur" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b> <font size=3 color=black>+</font> <font size=3><b>AntiMagn<sub>largeur</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="521" name="AntiMagn_1^quant" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sub>1</sub><sup>quant</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="522" name="AntiMagn_2^quant" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sub>2</sub><sup>quant</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="837" name="AntiMagn_taille" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sub>taille</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="653" name="AntiBon + AntiMagn_taille" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b> <font size=3 color=black>+</font> <font size=3><b>AntiMagn<sub>taille</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="533" name="AntiMagn_vitesse" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sub>vitesse</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="534" name="AntiBon + AntiMagn_vitesse" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b> <font size=3 color=black>+</font> <font size=3><b>AntiMagn<sub>vitesse</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="763" name="AntiMagn_puissance" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sub>puissance</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="797" name="AntiBon + AntiMagn" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b> <font size=3 color=black>+</font> <font size=3><b>AntiMagn</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="46" name="Minus">
+    <lexicalfunction id="139" name="IncepPredMinus" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Pred</b><font size=3><b>Minus</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="140" name="CausPredMinus" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Pred</b><font size=3><b>Minus</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="47" name="Ver">
+    <lexicalfunction id="145" name="Ver" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Ver</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="146" name="Bon + Ver" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Bon</b> <font size=3 color=black>+</font> <font size=3><b>Ver</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="143" name="Ver_finalité" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Ver<sub>finalité</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="148" name="CausPredVer" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Pred</b><font size=3><b>Ver</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="638" name="ContPredVer" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Cont</b><font size=3><b>Pred</b><font size=3><b>Ver</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="665" name="AntiBon + Ver" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b> <font size=3 color=black>+</font> <font size=3><b>Ver</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="865" name="S_instrCausPredVer" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b><font size=3><b>Caus</b><font size=3><b>Pred</b><font size=3><b>Ver</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="48" name="AntiVer">
+    <lexicalfunction id="155" name="AntiVer" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiVer</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="152" name="AntiVer_finalité" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiVer<sub>finalité</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="712" name="AntiVer_utilisation" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiVer<sub>utilisation</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="159" name="AntiBon + AntiVer" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b> <font size=3 color=black>+</font> <font size=3><b>AntiVer</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="757" name="CausPredAntiVer" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Pred</b><font size=3><b>AntiVer</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="49" name="Bon">
+    <lexicalfunction id="158" name="Bon" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Bon</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="880" name="Bon_∩" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Bon<sub>∩</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="970" name="Bon_2" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Bon<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="706" name="CausPredBon" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Pred</b><font size=3><b>Bon</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="50" name="AntiBon">
+    <lexicalfunction id="160" name="AntiBon" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="448" name="AntiBon_1" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="925" name="AntiBon_2" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+</group>
+<group>
+  <family id="53" name="Adv1">
+    <lexicalfunction id="161" name="Adv_1" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Adv<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="54" name="Adv2">
+    <lexicalfunction id="162" name="Adv_2" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Adv<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+  <family id="56" name="Instr">
+    <lexicalfunction id="163" name="Instr" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Instr</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="57" name="Loc">
+    <lexicalfunction id="165" name="Loc_in" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Loc<sub>in</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="164" name="Loc_in^temp" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Loc<sub>in</sub><sup>temp</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="552" name="Loc_ad" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Loc<sub>ad</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="553" name="Loc_ab" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Loc<sub>ab</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="58" name="Propt">
+    <lexicalfunction id="166" name="Propt" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Propt</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="59" name="Pred">
+    <lexicalfunction id="400" name="Pred" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="419" name="IncepPred" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="931" name="Conv_21Pred" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Conv<sub>21</sub></b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="167" name="CausPred" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="710" name="Caus_1Pred" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="491" name="Caus_1/2Pred" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1/2</sub></b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="511" name="Caus_2Pred" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>2</sub></b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="565" name="LiquPred" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu</b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="844" name="ContPred" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Cont</b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="852" name="Caus_1De_nouveauPred" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>De_nouveau</b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="853" name="CausDe_nouveauPred" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>De_nouveau</b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="855" name="Liqu_1Pred" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu<sub>1</sub></b><font size=3><b>Pred</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+  <family id="60" name="Oper1">
+    <lexicalfunction id="168" name="Oper_1" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="738" name="Oper_1^usual" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>1</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="497" name="Oper_1’" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>1’</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="525" name="Oper_{1}" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>{1}</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="501" name="Oper_1/2" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>1/2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="170" name="Oper_12" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>12</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="171" name="Oper_123" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>123</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="933" name="Oper_1/3" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>1/3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="183" name="Magn + Oper_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn</b> <font size=3 color=black>+</font> <font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="189" name="De_nouveauOper_1" status="0" linktype="syntagmatic" standardness="locally standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>De_nouveau</b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="174" name="NonOper_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Non</b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="175" name="IncepOper_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="965" name="IncepExcessOper_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Excess</b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="188" name="IncepOper_12" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Oper<sub>12</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="176" name="ContOper_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Cont</b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="177" name="FinOper_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fin</b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="179" name="CausOper_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="916" name="EnunCausOper_1" status="0" linktype="paradigmatic" standardness="proposed standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Enun</b><font size=3><b>Caus</b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="178" name="Caus_1Oper_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="398" name="Caus_2Oper_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>2</sub></b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="181" name="LiquOper_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu</b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="180" name="Liqu_1Oper_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu<sub>1</sub></b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="542" name="S_1’Oper_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>1’</sub></b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="637" name="Magn^quant + Oper_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sup>quant</sup></b> <font size=3 color=black>+</font> <font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="681" name="CausIncepOper_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Incep</b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="703" name="CausFinOper_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Fin</b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="814" name="Magn^quant + Oper_12" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sup>quant</sup></b> <font size=3 color=black>+</font> <font size=3><b>Oper<sub>12</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="821" name="Caus_1NonOper_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Non</b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="825" name="CausOper_12" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Oper<sub>12</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="864" name="Oper_1[1]" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>1[1]</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="869" name="Caus_3Oper_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>3</sub></b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="879" name="Prepar_@Oper_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prepar<sub>@</sub></b><font size=3><b>Oper<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="61" name="Oper2">
+    <lexicalfunction id="190" name="Oper_2" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="191" name="Oper_21" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>21</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="414" name="Magn + Oper_21" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn</b> <font size=3 color=black>+</font> <font size=3><b>Oper<sub>21</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="471" name="Oper_213" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>213</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="192" name="Oper_23" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>23</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="436" name="IncepOper_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Oper<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="438" name="FinOper_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fin</b><font size=3><b>Oper<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="449" name="Caus_2Oper_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>2</sub></b><font size=3><b>Oper<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="729" name="ContOper_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Cont</b><font size=3><b>Oper<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="761" name="Oper_2/3" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>2/3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="833" name="CausOper_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Oper<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="834" name="Caus_1Oper_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Oper<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="62" name="Oper3">
+    <lexicalfunction id="193" name="Oper_3" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="194" name="Oper_31" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>31</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="815" name="Oper_32" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>32</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="109" name="Oper4">
+    <lexicalfunction id="902" name="Oper_41" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Oper<sub>41</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+  <family id="63" name="Func0">
+    <lexicalfunction id="195" name="Func_0" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="196" name="IncepFunc_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="199" name="CausContFunc_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Cont</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="200" name="ContFunc_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Cont</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="201" name="S_0FinFunc_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Fin</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="202" name="FinFunc_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fin</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="203" name="Caus_1Func_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="206" name="CausFunc_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="211" name="CausDe_nouveauFunc_0" status="0" linktype="syntagmatic" standardness="locally standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>De_nouveau</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="212" name="De_nouveauFunc_0" status="0" linktype="syntagmatic" standardness="locally standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>De_nouveau</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="455" name="S_1CausFunc_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub></b><font size=3><b>Caus</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="532" name="S_1^usualCausFunc_0" status="0" linktype="syntagmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub><sup>usual</sup></b><font size=3><b>Caus</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="478" name="Perm_2Func_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Perm<sub>2</sub></b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="479" name="NonPerm_2Func_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Non</b><font size=3><b>Perm<sub>2</sub></b><font size=3><b>Func<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="635" name="Magn^quant + Func_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sup>quant</sup></b> <font size=3 color=black>+</font> <font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="722" name="VerCausFunc_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Ver</b><font size=3><b>Caus</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="723" name="AntiVerCausFunc_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiVer</b><font size=3><b>Caus</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="746" name="S_locFinFunc_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b><font size=3><b>Fin</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="754" name="Caus_2Func_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>2</sub></b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="755" name="S_0Caus_2Func_0" status="1" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Caus<sub>2</sub></b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="783" name="ProxFunc_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prox</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="784" name="Magn + CausFunc_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn</b> <font size=3 color=black>+</font> <font size=3><b>Caus</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="874" name="EnunIncepFunc_0" status="0" linktype="paradigmatic" standardness="proposed standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Enun</b><font size=3><b>Incep</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="909" name="EnunNonPermFunc_0" status="0" linktype="paradigmatic" standardness="proposed standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Enun</b><font size=3><b>Non</b><font size=3><b>Perm</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="911" name="NonPerm_1Func_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Non</b><font size=3><b>Perm<sub>1</sub></b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="966" name="A_1NonPermFunc_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b><font size=3><b>Non</b><font size=3><b>Perm</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="64" name="Func1">
+    <lexicalfunction id="213" name="Func_1" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Func<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="214" name="Func_1+2" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Func<sub>1+2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="215" name="Func_12" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Func<sub>12</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="216" name="IncepFunc_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Func<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="217" name="CausFunc_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Func<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="218" name="Magn + Func_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn</b> <font size=3 color=black>+</font> <font size=3><b>Func<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="799" name="Caus_2Func_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>2</sub></b><font size=3><b>Func<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="822" name="LiquFunc_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu</b><font size=3><b>Func<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="823" name="Liqu_2Func_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu<sub>2</sub></b><font size=3><b>Func<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="65" name="Func2">
+    <lexicalfunction id="219" name="Func_2" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Func<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="220" name="Caus_1Func_2" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Func<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="221" name="CausFunc_2" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Func<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="389" name="Caus_2Func_2" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>2</sub></b><font size=3><b>Func<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="614" name="Func_23" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Func<sub>23</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="759" name="Magn + Func_2" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn</b> <font size=3 color=black>+</font> <font size=3><b>Func<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="824" name="IncepFunc_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Func<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="826" name="LiquFunc_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu</b><font size=3><b>Func<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="66" name="Func3">
+    <lexicalfunction id="222" name="Func_3" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Func<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="960" name="PermFunc_3" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Perm</b><font size=3><b>Func<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+  <family id="67" name="Labor12">
+    <lexicalfunction id="224" name="Labor_12" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Labor<sub>12</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="112" name="Labor13">
+    <lexicalfunction id="961" name="Labor_13" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Labor<sub>13</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="68" name="Labor21">
+    <lexicalfunction id="225" name="Labor_21" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Labor<sub>21</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="437" name="Caus_2Labor_21" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>2</sub></b><font size=3><b>Labor<sub>21</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+  <family id="69" name="Real1">
+    <lexicalfunction id="228" name="Real_1" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="515" name="Real_1^usual" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>1</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="226" name="Real_1^I" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>1</sub><sup>I</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="227" name="Real_1^II" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>1</sub><sup>II</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="476" name="Real_1^III" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>1</sub><sup>III</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="230" name="Real_12" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>12</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="231" name="Real_13" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>13</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="477" name="Real_1/2" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>1/2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="232" name="Real_1[1]" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>1[1]</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="236" name="AntiReal_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="239" name="S_0Real_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="467" name="S_0Real_12" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Real<sub>12</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="240" name="S_resReal_1" status="0" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>res</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="493" name="S_medReal_1" status="0" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>med</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="237" name="A_1NonReal_1" status="0" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b><font size=3><b>Non</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="238" name="A_2NonReal_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>A<sub>2</sub></b><font size=3><b>Non</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="243" name="S_0SingReal_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Sing</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="244" name="AntiBonReal_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="245" name="IncepReal_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="569" name="FinReal_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fin</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="247" name="Caus_1Real_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="248" name="CausReal_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="249" name="Liqu_1Real_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu<sub>1</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="446" name="PreparReal_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prepar</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="487" name="S_resCaus_1Real_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>res</sub></b><font size=3><b>Caus<sub>1</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="506" name="Caus_1PlusReal_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Plus</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="557" name="Prepar_1Real_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prepar<sub>1</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="559" name="S_locReal_1^III" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b><font size=3><b>Real<sub>1</sub><sup>III</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="575" name="S_0Real_1^usual" status="1" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Real<sub>1</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="576" name="BonReal_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Bon</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="577" name="S_1Real_1" status="1" linktype="paradigmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="581" name="AntiVerReal_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiVer</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="584" name="AntiPrepar_1Real_1" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Prepar<sub>1</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="586" name="A_2Real_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>A<sub>2</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="592" name="S_instrPreparReal_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b><font size=3><b>Prepar</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="623" name="PreparLiqu_1Real_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prepar</b><font size=3><b>Liqu<sub>1</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="639" name="A_1AntiBonReal_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b><font size=3><b>AntiBon</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="891" name="A_1Magn^tempReal_1" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b><font size=3><b>Magn<sup>temp</sup></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="659" name="ContReal_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Cont</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="661" name="Magn + Real_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn</b> <font size=3 color=black>+</font> <font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="672" name="AntiBonReal_1^usual" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b><font size=3><b>Real<sub>1</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="686" name="PreparReal_1^I" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prepar</b><font size=3><b>Real<sub>1</sub><sup>I</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="690" name="Magn_2^quantCaus_1Real_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sub>2</sub><sup>quant</sup></b><font size=3><b>Caus<sub>1</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="700" name="S_0Real_1^II" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Real<sub>1</sub><sup>II</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="705" name="PreparReal_1^II" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prepar</b><font size=3><b>Real<sub>1</sub><sup>II</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="715" name="PerfReal_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Perf</b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="732" name="S_locReal_1^usual" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>loc</sub></b><font size=3><b>Real<sub>1</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="793" name="Real_1[1]^I" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>1[1]</sub><sup>I</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="794" name="Real_1[1]^II" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>1[1]</sub><sup>II</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="819" name="Liqu_1Real_1[1]" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu<sub>1</sub></b><font size=3><b>Real<sub>1[1]</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="463" name="Enun_1Real_1" status="0" linktype="paradigmatic" standardness="proposed standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Enun<sub>1</sub></b><font size=3><b>Real<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="70" name="Real2">
+    <lexicalfunction id="255" name="Real_2" status="0" linktype="syntagmatic" standardness="simple standard" semantics="1">
+      <![CDATA[
+               <font size=3><b>Real<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="801" name="Real_2^usual" status="0" linktype="syntagmatic" standardness="simple standard" semantics="1">
+      <![CDATA[
+               <font size=3><b>Real<sub>2</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="251" name="Real_2^I" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>2</sub><sup>I</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="252" name="Real_2^II" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>2</sub><sup>II</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="254" name="Real_2^III" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>2</sub><sup>III</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="927" name="BonReal_2" status="0" linktype="syntagmatic" standardness="standard" semantics="1">
+      <![CDATA[
+               <font size=3><b>Bon</b><font size=3><b>Real<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="253" name="Adv_1Real_2^III" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Adv<sub>1</sub></b><font size=3><b>Real<sub>2</sub><sup>III</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="258" name="AntiReal_2" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Real<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="256" name="Real_21" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>21</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="903" name="AntiReal_21" status="0" linktype="syntagmatic" standardness="standard" semantics="1">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Real<sub>21</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="391" name="AntiReal_2^I" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Real<sub>2</sub><sup>I</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="632" name="IncepReal_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Real<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="630" name="FinReal_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fin</b><font size=3><b>Real<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="796" name="Prepar_1Real_2" status="0" linktype="syntagmatic" standardness="standard" semantics="1">
+      <![CDATA[
+               <font size=3><b>Prepar<sub>1</sub></b><font size=3><b>Real<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="561" name="Caus_1Real_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Real<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="718" name="Liqu_1Real_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu<sub>1</sub></b><font size=3><b>Real<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="303" name="S_0Real_2" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Real<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="71" name="Real3">
+    <lexicalfunction id="266" name="Real_3" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="267" name="Real_31" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>31</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="640" name="PreparReal_3" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prepar</b><font size=3><b>Real<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="641" name="LiquReal_3" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu</b><font size=3><b>Real<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="72" name="Real4">
+    <lexicalfunction id="273" name="Real_4" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>4</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="73" name="Real@">
+    <lexicalfunction id="276" name="Real_@^I" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>@</sub><sup>I</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="277" name="Real_@^II" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>@</sub><sup>II</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="278" name="Real_@^III" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>@</sub><sup>III</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="279" name="Real_@" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Real<sub>@</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="281" name="S_1Real_@^I/II" status="0" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub></b><font size=3><b>Real<sub>@</sub><sup>I/II</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="283" name="AntiReal_@" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Real<sub>@</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="284" name="S_0Real_@" status="0" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Real<sub>@</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="285" name="S_1Real_@" status="0" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub></b><font size=3><b>Real<sub>@</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="286" name="S_resReal_@" status="0" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>res</sub></b><font size=3><b>Real<sub>@</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="526" name="AntiAble_2Real_@^II" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Able<sub>2</sub></b><font size=3><b>Real<sub>@</sub><sup>II</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="543" name="AntiReal_@^III" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Real<sub>@</sub><sup>III</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="645" name="AntiBonReal_@" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b><font size=3><b>Real<sub>@</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="664" name="PreparReal_@" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prepar</b><font size=3><b>Real<sub>@</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="696" name="Able_2Real_@" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Able<sub>2</sub></b><font size=3><b>Real<sub>@</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="730" name="A_1Real_@" status="1" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b><font size=3><b>Real<sub>@</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="789" name="Caus_1Real_@" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Real<sub>@</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+  <family id="74" name="Fact0">
+    <lexicalfunction id="288" name="Fact_0" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="616" name="Mult + Fact_0" status="0" linktype="syntagmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Mult</b> <font size=3 color=black>+</font> <font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="619" name="Fact_0^I" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fact<sub>0</sub><sup>I</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="287" name="Fact_0^II" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fact<sub>0</sub><sup>II</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="292" name="S_resFact_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>res</sub></b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="941" name="S_resFact_0^III" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>res</sub></b><font size=3><b>Fact<sub>0</sub><sup>III</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="299" name="S_resPerfFact_0" status="0" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>res</sub></b><font size=3><b>Perf</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="294" name="AntiBonFact_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="295" name="IncepFact_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="296" name="FinFact_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fin</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="401" name="Caus_1Fact_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="679" name="CausFact_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="297" name="Liqu_1Fact_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu<sub>1</sub></b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="298" name="LiquFact_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="402" name="Liqu_3Fact_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu<sub>3</sub></b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="484" name="BonFact_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Bon</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="935" name="Caus_1PlusFact_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Plus</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="490" name="Caus_1MinusFact_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Minus</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="540" name="Caus_1De_nouveauFact_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>De_nouveau</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="541" name="S_1’Fact_0" status="1" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>1’</sub></b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="551" name="S_0Fact_0" status="1" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="562" name="S_1CausFact_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>1</sub></b><font size=3><b>Caus</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="585" name="A_1Fact_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="943" name="Able_1Fact_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Able<sub>1</sub></b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="944" name="AntiAble_1Fact_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Able<sub>1</sub></b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="633" name="A_1NonFact_0" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b><font size=3><b>Non</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="634" name="AntiBonA_1Fact_0" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b><font size=3><b>A<sub>1</sub></b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="689" name="MagnFact_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="713" name="S_0SingFact_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Sing</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="721" name="AntiFact_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="767" name="NonFact_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Non</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="768" name="S_0IncepFact_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Incep</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="788" name="ProxFact_0" status="1" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prox</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="829" name="CausContFact_0" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Cont</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="892" name="S_0AntiBonFact_0" status="0" linktype="syntagmatic" standardness="standard" semantics="1">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>AntiBon</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="567" name="PermFact_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Perm</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="942" name="AntiPermFact_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Perm</b><font size=3><b>Fact<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="75" name="Fact1">
+    <lexicalfunction id="304" name="Fact_1" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fact<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="489" name="AntiBonFact_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b><font size=3><b>Fact<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="544" name="CausFact_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Fact<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="451" name="Magn^quant + A_2Fact_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Magn<sup>quant</sup></b> <font size=3 color=black>+</font> <font size=3><b>A<sub>2</sub></b><font size=3><b>Fact<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="550" name="AntiMagn_largeur + Fact_1" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiMagn<sub>largeur</sub></b> <font size=3 color=black>+</font> <font size=3><b>Fact<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="603" name="LiquFact_1" status="1" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu</b><font size=3><b>Fact<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="795" name="PreparFact_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prepar</b><font size=3><b>Fact<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="843" name="Liqu_3Fact_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu<sub>3</sub></b><font size=3><b>Fact<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="76" name="Fact2">
+    <lexicalfunction id="306" name="Fact_2" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fact<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="472" name="Fact_2^I" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fact<sub>2</sub><sup>I</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="305" name="Fact_2^II" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fact<sub>2</sub><sup>II</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="613" name="Fact_2/3" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fact<sub>2/3</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="676" name="Fact_23" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fact<sub>23</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="433" name="AntiBonFact_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b><font size=3><b>Fact<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="556" name="AntiBonLiqu_1Fact_2" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b><font size=3><b>Liqu<sub>1</sub></b><font size=3><b>Fact<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="648" name="Magn_2^quant + A_1Fact_2" status="0" linktype="syntagmatic" standardness="standard" semantics="1">
+      <![CDATA[
+               <font size=3><b>Magn<sub>2</sub><sup>quant</sup></b> <font size=3 color=black>+</font> <font size=3><b>A<sub>1</sub></b><font size=3><b>Fact<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="647" name="A_1NonFact_2" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b><font size=3><b>Non</b><font size=3><b>Fact<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="842" name="A_2Fact_2" status="0" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>A<sub>2</sub></b><font size=3><b>Fact<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="684" name="S_0Fact_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Fact<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="687" name="Fact_2^usual" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fact<sub>2</sub><sup>usual</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="699" name="S_resFact_2" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>res</sub></b><font size=3><b>Fact<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="724" name="Prepar_1Fact_2" status="0" linktype="syntagmatic" standardness="standard" semantics="1">
+      <![CDATA[
+               <font size=3><b>Prepar<sub>1</sub></b><font size=3><b>Fact<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="77" name="Fact3">
+    <lexicalfunction id="307" name="Fact_3" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fact<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="78" name="Fact@">
+    <lexicalfunction id="308" name="Fact_@" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fact<sub>@</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+  <family id="79" name="Labreal12">
+    <lexicalfunction id="310" name="Labreal_12" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Labreal<sub>12</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="309" name="Labreal_12^II" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Labreal<sub>12</sub><sup>II</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="624" name="AntiLabreal_12" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Labreal<sub>12</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="714" name="Labreal_12^I" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Labreal<sub>12</sub><sup>I</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="740" name="Labreal_123" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Labreal<sub>123</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="741" name="S_0Labreal_12" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Labreal<sub>12</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="104" name="Labreal13">
+    <lexicalfunction id="510" name="Labreal_13" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Labreal<sub>13</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="106" name="Labreal1@">
+    <lexicalfunction id="854" name="Labreal_1@" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Labreal<sub>1@</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="80" name="Labreal21">
+    <lexicalfunction id="312" name="Labreal_21" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Labreal<sub>21</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="107" name="Labreal23">
+    <lexicalfunction id="858" name="Labreal_23" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Labreal<sub>23</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+  <family id="97" name="Incep">
+    <lexicalfunction id="381" name="Incep" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Incep</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="98" name="Cont">
+    <lexicalfunction id="382" name="Cont" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Cont</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="99" name="Fin">
+    <lexicalfunction id="383" name="Fin" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Fin</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="81" name="Caus">
+    <lexicalfunction id="367" name="Caus" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="917" name="EnunCaus" status="0" linktype="paradigmatic" standardness="proposed standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>Enun</b><font size=3><b>Caus</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="363" name="Caus_1/2" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1/2</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="352" name="CausConv_21" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Conv<sub>21</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="873" name="CausConv_231" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Conv<sub>231</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="413" name="S_0Caus" status="0" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Caus</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="82" name="Liqu">
+    <lexicalfunction id="546" name="Liqu" status="1" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="208" name="LiquFunc_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="207" name="Liqu_1Func_0" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Liqu<sub>1</sub></b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="607" name="S_instrLiquFunc_0" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b><font size=3><b>Liqu</b><font size=3><b>Func<sub>0</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="84" name="Involv">
+    <lexicalfunction id="313" name="Involv" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Involv</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="314" name="Conv_21Involv" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Conv<sub>21</sub></b><font size=3><b>Involv</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="315" name="S_resAntiBonInvolv" status="0" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>res</sub></b><font size=3><b>AntiBon</b><font size=3><b>Involv</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="316" name="AntiBonInvolv" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b><font size=3><b>Involv</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="719" name="Caus_1Involv" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>Involv</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="608" name="S_instrAntiBonInvolv" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>instr</sub></b><font size=3><b>AntiBon</b><font size=3><b>Involv</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="654" name="Caus_1AntiBonInvolv" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus<sub>1</sub></b><font size=3><b>AntiBon</b><font size=3><b>Involv</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="782" name="NonConv_21Involv" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Non</b><font size=3><b>Conv<sub>21</sub></b><font size=3><b>Involv</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="785" name="Adv_1AntiAble_2Involv" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Adv<sub>1</sub></b><font size=3><b>Anti</b><font size=3><b>Able<sub>2</sub></b><font size=3><b>Involv</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="786" name="AntiBon + A_1Involv" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>AntiBon</b> <font size=3 color=black>+</font> <font size=3><b>A<sub>1</sub></b><font size=3><b>Involv</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="787" name="A_1Conv_21Involv" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>A<sub>1</sub></b><font size=3><b>Conv<sub>21</sub></b><font size=3><b>Involv</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="85" name="Manif">
+    <lexicalfunction id="905" name="Manif" status="0" linktype="syntagmatic" standardness="simple standard" semantics="1">
+      <![CDATA[
+               <font size=3><b>Manif</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="964" name="S_2Manif" status="0" linktype="paradigmatic" standardness="standard" semantics="2">
+      <![CDATA[
+               <font size=3><b>S<sub>2</sub></b><font size=3><b>Manif</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="86" name="Prepar">
+    <lexicalfunction id="545" name="Prepar" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prepar</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="708" name="Prepar^I" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prepar<sup>I</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="709" name="Prepar^II" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prepar<sup>II</sup></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="325" name="Prepar_1" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Prepar<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="946" name="AntiPrepar" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Anti</b><font size=3><b>Prepar</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="527" name="A_2PerfPrepar_1" status="0" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>A<sub>2</sub></b><font size=3><b>Perf</b><font size=3><b>Prepar<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="88" name="Degrad">
+    <lexicalfunction id="326" name="Degrad" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Degrad</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="876" name="CausDegrad" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Degrad</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="89" name="Son">
+    <lexicalfunction id="327" name="Son" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Son</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="328" name="S_0Son" status="0" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>S<sub>0</sub></b><font size=3><b>Son</b>
+      ]]>
+    </lexicalfunction>
+    <lexicalfunction id="615" name="EnunSon" status="1" linktype="paradigmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Enun</b><font size=3><b>Son</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="91" name="Result1">
+    <lexicalfunction id="384" name="Result_1" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Result<sub>1</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="92" name="Result2">
+    <lexicalfunction id="385" name="Result_2" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Result<sub>2</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="105" name="Result3">
+    <lexicalfunction id="734" name="Result_3" status="0" linktype="syntagmatic" standardness="simple standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Result<sub>3</sub></b>
+      ]]>
+    </lexicalfunction>
+  </family>
+  <family id="93" name="Obstr">
+    <lexicalfunction id="677" name="CausObstr" status="1" linktype="syntagmatic" standardness="standard" semantics="0">
+      <![CDATA[
+               <font size=3><b>Caus</b><font size=3><b>Obstr</b>
+      ]]>
+    </lexicalfunction>
+  </family>
+</group>
+<group>
+</group>
+</model>

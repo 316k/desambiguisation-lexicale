@@ -1,0 +1,2319 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE model[
+<!ELEMENT model (class)>
+
+<!ELEMENT class (class*,instance+)>
+<!ATTLIST class
+  comment CDATA #REQUIRED
+  id CDATA #REQUIRED
+  inheritancetype CDATA #REQUIRED
+  name CDATA #REQUIRED
+  semfield CDATA #REQUIRED
+  status CDATA #REQUIRED>
+
+<!ELEMENT instance EMPTY>
+<!ATTLIST instance
+  acttype CDATA #REQUIRED
+  comment CDATA #IMPLIED
+  derivation NMTOKEN #REQUIRED
+  id CDATA #REQUIRED
+  name CDATA #REQUIRED
+  status CDATA #REQUIRED>
+]>
+<model>
+<class id="534" name="QQCH." status="1" semfield="0" inheritancetype="0" comment="">
+<class id="253" name="ENTITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="10" name="[UNE]_CRÉATION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="161" name="COMPOSITION_MUSICALE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="506" name="PIÈCE_MUSICALE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="565" name="pièce musicale" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="183" name="composition musicale" status="1" derivation="---" acttype="" comment=""/>
+<instance id="829" name="partie de composition musicale" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<class id="191" name="FILM" status="1" semfield="1" inheritancetype="1" comment="">
+<instance id="216" name="film" status="1" derivation="---" acttype="" comment=""/>
+<instance id="833" name="partie de film" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<instance id="10" name="[une] création" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="25" name="ACCUMULATION_[DE_QQCH.]" status="" semfield="0" inheritancetype="0" comment="">
+<class id="26" name="ACCUMULATION_DE_MATIÈRE_AYANT_UNE_CERTAINE_FORME" status="" semfield="0" inheritancetype="1" comment="">
+<instance id="26" name="accumulation de matière ayant une certaine forme" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="223" name="DÉPÔT_DE_MATIÈRE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="252" name="dépôt de matière" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="25" name="accumulation [de qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="123" name="BIEN" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="132" name="bien" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="242" name="ENSEMBLE_D’ENTITÉS" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="264" name="ESPÈCE_VIVANTE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="262" name="ESPÈCE_ANIMALE" status="1" semfield="0" inheritancetype="0" comment="L’étiquette ‘espèce animale’ est systématiquement équivalente à
+‘espèce animale ou animal’ (« un équidé »).">
+<instance id="291" name="espèce animale" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="919" name="qui appartient à une espèce animale" status="1" derivation="A1" acttype="0" comment=""/>
+</class>
+<class id="714" name="ESPÈCE_VÉGÉTALE" status="1" semfield="0" inheritancetype="0" comment="L’étiquette ‘espèce végétale’ est systématiquement équivalente à
+‘espèce végétale ou végétal’ (« une cucurbitacée »).">
+<instance id="886" name="espèce végétale" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="293" name="espèce vivante" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="322" name="GROUPE_HUMAIN" status="1" semfield="0" inheritancetype="0" comment="Cf. « [L’]Homme », « [La] Femme » ; « homo sapiens ».
+L’étiquette ‘groupe humain’ est systématiquement équivalente à
+‘groupe humain ou individu’ (« un homo sapiens »).">
+<instance id="368" name="groupe humain" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="270" name="ensemble d’entités" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="254" name="ENTITÉ_GÉOLOGIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="282" name="entité géologique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="255" name="ENTITÉ_INFORMATIONNELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="730" name="ARGENT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="577" name="SOMME_D’ARGENT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="551" name="REVENU" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="611" name="revenu" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="643" name="somme d’argent" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="1026" name="relatif à une somme d’argent" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+</class>
+<class id="50" name="ACTION_PROGRAMMÉE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="56" name="action programmée" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="715" name="CODE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="887" name="code" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="909" name="élément d’un code" status="1" derivation="ElementOf" acttype="0" comment=""/>
+</class>
+<class id="170" name="CONNAISSANCE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="192" name="connaissance" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="178" name="CONTENU_INFORMATIONNEL_QU’ON_COMMUNIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="207" name="DOCUMENT" status="1" semfield="1" inheritancetype="1" comment="">
+<class id="211" name="DOCUMENT_ÉCRIT" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="208" name="DOCUMENT_JUSTIFICATIF" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="233" name="document justificatif" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="209" name="DOCUMENT_OFFICIEL" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="217" name="DÉCLARATION_OU_DOCUMENT_CORRESPONDANT" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="245" name="déclaration ou document correspondant" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="32" name="ACTE_OFFICIEL_OU_DOCUMENT_CORRESPONDANT" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="34" name="acte officiel ou document correspondant" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="234" name="document officiel" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="236" name="document écrit" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="210" name="DOCUMENT_PHOTOGRAPHIQUE" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="235" name="document photographique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="232" name="document" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="634" name="ÉNONCÉ" status="1" semfield="1" inheritancetype="1" comment="">
+<class id="635" name="ÉNONCÉ_EXCLAMATIF" status="1" semfield="0" inheritancetype="0" comment="Distinct de EXCLAMATION, qui est un son produit pour communiquer mais n’est pas un énoncé.">
+<instance id="706" name="le locuteur s’exclame" status="1" derivation="Claus" acttype="" comment=""/>
+<instance id="707" name="énoncé exclamatif" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="541" name="QUESTION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="602" name="question" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="636" name="ÉNONCÉ_OU_GESTE_EXPRESSIF" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="708" name="énoncé ou geste expressif" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="703" name="le locuteur dit" status="1" derivation="Claus" acttype="" comment=""/>
+<instance id="704" name="relatif à un type d’énoncé" status="1" derivation="A0" acttype="" comment=""/>
+<instance id="705" name="énoncé" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="191" name="FILM" status="1" semfield="1" inheritancetype="1" comment="">
+<instance id="216" name="film" status="1" derivation="---" acttype="" comment=""/>
+<instance id="833" name="partie de film" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<class id="598" name="TEXTE" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="665" name="texte" status="1" derivation="---" acttype="" comment=""/>
+<instance id="834" name="partie d’un texte" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<instance id="199" name="contenu informationnel qu’on communique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="329" name="IDÉE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="377" name="idée" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="369" name="INFORMATION_[SUR_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="332" name="INDICATION_[DONNÉE_PAR_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="420" name="MESURE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="472" name="mesure" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="381" name="[qqch.] indiquer" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="382" name="indication donnée par qqch." status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="370" name="INFORMATION_COMMUNIQUÉE" status="1" semfield="0" inheritancetype="0" comment="INFORMATION_COMMUNIQUÉE renvoie au contenu d’un énoncé et pas à l’énoncé lui-même. Une question est est un énoncé alors qu’une rumeur est une information communiquée -- APol, 16viii2001 (revu, 25i12).">
+<instance id="420" name="information communiquée" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="419" name="information [sur qqch.]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="439" name="MÉTHODE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="440" name="MÉTHODE_DE_SOIN" status="1" semfield="0" inheritancetype="1" comment="">
+<class id="591" name="SUBSTANCE_SERVANT_À_SOIGNER_OU_MÉTHODE_DE_SOIN" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="658" name="substance servant à soigner ou méthode de soin" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="497" name="méthode de soin" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="495" name="méthode" status="1" derivation="---" acttype="" comment=""/>
+<instance id="496" name="relatif à la méthode" status="1" derivation="A0" acttype="" comment="Pour « à la » versus « à une », voir remarque sous ‘relatif au méfait’."/>
+</class>
+<class id="445" name="NOMBRE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="503" name="nombre" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="547" name="REPRÉSENTATION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="331" name="IMAGE" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="380" name="image" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="607" name="représentation" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="607" name="UNITÉ_DE_COMPTAGE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="676" name="unité de comptage" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="283" name="entité informationnelle" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="256" name="ENTITÉ_SOCIALE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="462" name="ORGANISME_SOCIAL" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="63" name="ADMINISTRATION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="64" name="ADMINISTRATION_OU_CONSTRUCTION_L’ABRITANT" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="71" name="administration ou construction l’abritant" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="70" name="administration" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="9" name="[UNE]_AUTORITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="119" name="AUTORITÉ_JUDICIAIRE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="128" name="autorité judiciaire" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="9" name="[une] autorité" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="258" name="ENTREPRISE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="286" name="entreprise" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="373" name="INSTITUTION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="374" name="INSTITUTION_OU_CONSTRUCTION_L’ABRITANT" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="424" name="institution ou construction l’abritant" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="423" name="institution" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="638" name="ÉTABLISSEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="639" name="ÉTABLISSEMENT_COMMERCIAL" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="641" name="ÉTABLISSEMENT_DE_RESTAURATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="713" name="établissement de restauration" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="711" name="établissement commercial" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="640" name="ÉTABLISSEMENT_CULTUREL" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="643" name="ÉTABLISSEMENT_DE_SPECTACLES" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="715" name="établissement de spectacles" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="712" name="établissement culturel" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="642" name="ÉTABLISSEMENT_DE_SOINS" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="714" name="établissement de soins" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="644" name="ÉTABLISSEMENT_INDUSTRIEL" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="716" name="établissement industriel" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="710" name="établissement" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="521" name="organisme social" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="676" name="[UN]_SERVICE" status="1" semfield="0" inheritancetype="1" comment="">
+<class id="6" name="SERVICE_D’UN_ÉTABLISSEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="6" name="service d’un établissement" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="677" name="SERVICE_D’UNE_ADMINISTRATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="767" name="service d’une administration" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="766" name="[un] service" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="284" name="entité sociale" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="257" name="ENTITÉ_VISUELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="306" name="[UNE]_FORME" status="1" semfield="0" inheritancetype="0" comment="Dans le sens de ‘forme géométrique’. Contraste avec ‘forme [de qqch.]’.">
+<class id="298" name="FIGURE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="338" name="figure" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="350" name="[une] forme" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="632" name="ÉLÉMENT_GRAPHIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="564" name="SIGNE_GRAPHIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="565" name="SIGNE_MUSICAL" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="567" name="SILENCE_OU_SIGNE_MUSICAL_LE_REPRÉSENTANT" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="632" name="silence ou signe musical le représentant" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="630" name="signe musical" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="629" name="signe graphique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="701" name="élément graphique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="668" name="ENTITÉ_OU_CARACTÉRISTIQUE_VISUELLE" status="1" semfield="0" inheritancetype="1" comment="">
+<class id="183" name="COULEUR_(DE_QQCH.)" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="205" name="couleur (de qqch.)" status="1" derivation="---" acttype="" comment=""/>
+<instance id="206" name="d’une certaine couleur" status="1" derivation="A1" acttype="" comment=""/>
+</class>
+<instance id="743" name="entité ou caractéristique visuelle" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="285" name="entité visuelle" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="395" name="LIEU" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="396" name="LIEU_ABSTRAIT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="397" name="LIEU_ABSTRAIT_QUI_SÉPARE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="448" name="lieu abstrait qui sépare" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="402" name="LIMITE_ABSTRAITE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="453" name="limite abstraite" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="710" name="SIÈGE_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="864" name="siège [de qqch.]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="447" name="lieu abstrait" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="400" name="LIEU_PHYSIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="695" name="ENDROIT" status="1" semfield="0" inheritancetype="0" comment="Lieu physique associé à des faits donnés. Par exemple, ARRÊT [d’autobus].">
+<class id="225" name="ENDROIT_AMÉNAGÉ" status="1" semfield="0" inheritancetype="0" comment="Par exemple : AÉROPORT, JARDIN.">
+<instance id="254" name="endroit aménagé" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="226" name="ENDROIT_SYMBOLIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="255" name="endroit symbolique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="696" name="PARTIE_INTÉRIEURE_D’UNE_CONSTRUCTION" status="1" semfield="0" inheritancetype="0" comment="Typiquement, il s’agit d’une partie de construction « où l’on va », qu’on utilise, etc.">
+<instance id="806" name="partie intérieure d’une construction" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="805" name="endroit" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="613" name="LIEU DE DÉPLACEMENT" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="682" name="lieu de déplacement" status="1" derivation="---" acttype="" comment=""/>
+<instance id="822" name="partie d’un lieu de déplacement" status="0" derivation="PartOf" acttype="" comment=""/>
+</class>
+<class id="399" name="LIEU_GÉOGRAPHIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="630" name="ÉLÉMENT_DU_RELIEF" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="186" name="COURS_D’EAU" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="209" name="cours d’eau" status="1" derivation="---" acttype="" comment=""/>
+<instance id="824" name="partie d’un cours d’eau" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<class id="704" name="ÉTENDUE_D’EAU" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="842" name="étendue d’eau" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="699" name="élément du relief" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="654" name="ÉTENDUE_DE_TERRAIN" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="655" name="ÉTENDUE_DE_TERRAIN_BOISÉE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="730" name="étendue de terrain boisée" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="656" name="ÉTENDUE_DE_TERRAIN_DESTINÉE_À_UNE_ACTIVITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="731" name="étendue de terrain destinée à une activité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="657" name="ÉTENDUE_DE_TERRAIN_OCCUPÉE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="732" name="étendue de terrain occupée" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="729" name="étendue de terrain" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="718" name="ENTITÉ_GÉOPOLITIQUE" status="1" semfield="0" inheritancetype="0" comment="Voir remarques dans sous-classe PAYS, qui vaut vraisemblablement pour toutes les autres sous-classes.">
+<class id="719" name="PAYS" status="1" semfield="0" inheritancetype="0" comment="Pour la lexie nominale PAYS :
+- Structure actancielle : ~ où vivent les X
+- Polysémie de base :
+    a) entité géopolitique
+    b) population de l’entité géopolitique (« Tout le pays est en émoi. ») => la lexie est sont propre S1
+    c) entité sociale correspondante (« La France a battu l’Italie 2 à 0. », « Le pays a fermé ses frontières. »)
+- Toutes les lexies étiquetées ‘pays’ n’ont pas de copolysèmes correspondants dans le modèle lexical. Ceux-ci sont considérés comme dérivés systématiquement de l’acception unique. Ainsi, tout nom de pays est son propre S1 (acception b) systématiquement dérivable).">
+<instance id="914" name="pays" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="915" name="relatif à un pays" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="916" name="qqn d’un pays" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<instance id="912" name="entité géopolitique" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="913" name="relatif à une entité géopolitique" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<instance id="450" name="lieu géographique" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="827" name="partie d’un lieu géographique" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<class id="261" name="ESPACE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="444" name="NIVEAU_OU_ESPACE_DANS_UNE_CONSTRUCTION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="645" name="ÉTAGE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="717" name="étage" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="502" name="niveau ou espace dans une construction" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="290" name="espace" status="1" derivation="---" acttype="" comment=""/>
+<instance id="826" name="partie d’un espace" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<class id="398" name="LIEU_D’HABITATION" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="449" name="lieu d’habitation" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="401" name="LIEU_QUI_SÉPARE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="452" name="lieu qui sépare" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="403" name="LIMITE_PHYSIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="454" name="limite physique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="466" name="PARCOURS" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="525" name="parcours" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="593" name="SURFACE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="660" name="surface" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="451" name="lieu physique" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="823" name="partie d’un lieu physique" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<instance id="446" name="lieu" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="596" name="TEMPS" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="533" name="PÉRIODE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="427" name="MOMENT_DE_LA_JOURNÉE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="545" name="REPAS" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="605" name="repas" status="1" derivation="---" acttype="" comment=""/>
+<instance id="762" name="faire un repas" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="481" name="moment de la journée" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="233" name="ENSEMBLE_DE_FAITS_OU_PÉRIODE_CORRESPONDANTE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="262" name="ensemble de faits ou période correspondante" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="594" name="période" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="941" name="relatif à une certaine période" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<class id="721" name="POINT_DANS_LE_TEMPS" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="728" name="DÉBUT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="1022" name="début" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="1023" name="débuter" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="1024" name="relatif au début" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="1025" name="qui débute" status="1" derivation="A1" acttype="0" comment=""/>
+</class>
+<class id="729" name="FIN" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="1018" name="fin" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="1019" name="finir" status="1" derivation="V0" acttype="1" comment=""/>
+<instance id="1020" name="qui finit" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="1021" name="relatif à la fin" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<instance id="942" name="point dans le temps" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="943" name="relatif à un point dans le temps" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<instance id="663" name="temps" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="413" name="MATIÈRE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="26" name="ACCUMULATION_DE_MATIÈRE_AYANT_UNE_CERTAINE_FORME" status="" semfield="0" inheritancetype="1" comment="">
+<instance id="26" name="accumulation de matière ayant une certaine forme" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="223" name="DÉPÔT_DE_MATIÈRE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="252" name="dépôt de matière" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="416" name="MATÉRIAU" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="192" name="CUIR" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="309" name="FOURRURE_OU_CUIR" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="354" name="fourrure ou cuir" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="217" name="cuir" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="308" name="FOURRURE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="309" name="FOURRURE_OU_CUIR" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="354" name="fourrure ou cuir" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="353" name="fourrure" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="417" name="MATÉRIAU_DE_CONSTRUCTION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="451" name="OBJET_SERVANT_DE_MATÉRIAU_DE_CONSTRUCTION" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="509" name="objet servant de matériau de construction" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="468" name="matériau de construction" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="467" name="matériau" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="414" name="MATIÈRE_NATURELLE" status="1" semfield="0" inheritancetype="0" comment="Remplace l’ancienne ‘substance naturelle’, pour TERRE, ROCHE, etc.. (APol, 30i12)">
+<instance id="465" name="matière naturelle" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="415" name="MATIÈRE_QUI_A_UNE_CERTAINE_CONSISTANCE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="4" name="[UN]_FLUIDE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="300" name="FLUIDE_CORPOREL" status="1" semfield="0" inheritancetype="1" comment="">
+<class id="301" name="FLUIDE_CORPOREL_QUI_SERT_D’ALIMENT" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="342" name="fluide corporel qui sert d’aliment" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="341" name="fluide corporel" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="4" name="[un] fluide" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="5" name="[UN]_GAZ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="5" name="[un] gaz" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="7" name="[UN]_SOLIDE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="7" name="[un] solide" status="1" derivation="---" acttype="1" comment=""/>
+</class>
+<instance id="466" name="matière qui a une certaine consistance" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="584" name="SUBSTANCE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="585" name="SUBSTANCE_QUI_A_UNE_CERTAINE_UTILISATION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="590" name="SUBSTANCE_SERVANT_À_SOIGNER" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="591" name="SUBSTANCE_SERVANT_À_SOIGNER_OU_MÉTHODE_DE_SOIN" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="658" name="substance servant à soigner ou méthode de soin" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="436" name="MÉDICAMENT" status="1" semfield="1" inheritancetype="1" comment="Attention, un médicament contraceptif est un artéfact médical, mais n’est pas un médicament -- APol, 30i12.">
+<class id="437" name="MÉDICAMENT_SOLIDE_QU’ON_INGÈRE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="491" name="médicament solide qu’on ingère" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="490" name="médicament" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="657" name="substance servant à soigner" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="586" name="SUBSTANCE_ALIMENTAIRE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="653" name="substance alimentaire" status="1" derivation="---" acttype="" comment=""/>
+<instance id="837" name="portion de substance alimentaire" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<class id="697" name="SUBSTANCE_SERVANT_À_NETTOYER" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="807" name="substance servant à nettoyer" status="1" derivation="---" acttype="" comment=""/>
+<instance id="808" name="relatif à une substance servant à nettoyer" status="1" derivation="A0" acttype="" comment=""/>
+<instance id="839" name="portion de substance servant à nettoyer" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<instance id="652" name="substance qui a une certaine utilisation" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="587" name="SUBSTANCE_CHIMIQUE" status="1" semfield="0" inheritancetype="0" comment="Substance considérée du point de vue de ses propriétés chimiques.">
+<instance id="654" name="substance chimique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="588" name="SUBSTANCE_CORPORELLE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="300" name="FLUIDE_CORPOREL" status="1" semfield="0" inheritancetype="1" comment="">
+<class id="301" name="FLUIDE_CORPOREL_QUI_SERT_D’ALIMENT" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="342" name="fluide corporel qui sert d’aliment" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="341" name="fluide corporel" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="655" name="substance corporelle" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="651" name="substance" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="656" name="substance d’un certain type" status="1" derivation="Type" acttype="0" comment=""/>
+<instance id="953" name="relatif à une substance" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="954" name="relatif à un type de substance" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<instance id="464" name="matière" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="694" name="MOYEN" status="1" semfield="0" inheritancetype="0" comment="Qqch., de niveau d’abstraction plus élevé qu’une entité spécifique, qui sert à faire qqch. Par exemple, « Je ne supporte pas le métro. » -> MÉTRO en tant que moyen de transport.">
+<instance id="804" name="[un] moyen" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="448" name="CHOSE_[PHYSIQUE]" status="1" semfield="0" inheritancetype="0" comment="[Anciennement ‘OBJET_PHYSIQUE’]">
+<class id="180" name="CORPS_[D’UN_ÊTRE_ANIMÉ]" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="201" name="corps [d’un être animé]" status="1" derivation="---" acttype="" comment=""/>
+<instance id="698" name="élément du corps" status="1" derivation="PartOf" acttype="" comment=""/>
+<instance id="813" name="relatif au corps" status="1" derivation="A0" acttype="" comment=""/>
+<instance id="814" name="relativement au corps" status="1" derivation="Adv0" acttype="" comment=""/>
+</class>
+<class id="446" name="CHOSE_AYANT_UNE_CERTAINE_FORME" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="103" name="OBJET_AYANT_UNE_CERTAINE_FORME" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="114" name="objet ayant une certaine forme" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="504" name="chose ayant une certaine forme" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="447" name="OBJET_CÉLESTE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="113" name="ASTRE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="123" name="astre" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="1016" name="ensemble d’astres" status="1" derivation="SetOf" acttype="0" comment=""/>
+</class>
+<instance id="505" name="objet céleste" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="450" name="CHOSE_QUI_RECOUVRE_[QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="508" name="chose qui recouvre [qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="667" name="CHOSE_VIVANTE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="724" name="ORGANISME_VIVANT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="983" name="organisme vivant" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="984" name="type d’organisme vivant" status="1" derivation="Type" acttype="0" comment=""/>
+<instance id="985" name="relatif à un organisme vivant" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<class id="664" name="ÊTRE_ANIMÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="70" name="ANIMAL" status="1" semfield="1" inheritancetype="0" comment="On ne va pas plus loin dans une sous-classification. Les noms des différents types d’animaux seront identifiables et regroupés dans le système lexical grâce à la FL Gener – APol, 7xii15.">
+<instance id="78" name="animal" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="859" name="ensemble d’animaux" status="1" derivation="SetOf" acttype="1" comment=""/>
+<instance id="873" name="type d’animal" status="1" derivation="Type" acttype="0" comment=""/>
+<instance id="918" name="qui est un animal" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="928" name="relatif à un animal" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<class id="665" name="ÊTRE_HUMAIN" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="333" name="INDIVIDU" status="1" semfield="0" inheritancetype="0" comment="Avec ses sub, étiquette des lexies qui pourront éventuellement dénoter des « personnes » (‘personne’ étant un raccourci pour ‘entité sociale OU individu’). Ça sera à la définition de préciser la nature exacte du sens.">
+<class id="117" name="AUTEUR" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="118" name="AUTEUR_DE_TEXTES" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="127" name="auteur de textes" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="126" name="auteur" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="338" name="INDIVIDU_DONT_ON_S’OCCUPE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="388" name="individu dont on s’occupe" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="336" name="INDIVIDU_DE_SEXE_FÉMININ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="295" name="FEMME" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="297" name="FEMME_QUI_A_UNE_RELATION_SENTIMENTALE_OU_SEXUELLE_AVEC_UN_HOMME" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="337" name="femme qui a une relation sentimentale ou sexuelle avec un homme" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="335" name="femme" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="386" name="individu de sexe féminin" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="337" name="INDIVIDU_DE_SEXE_MASCULIN" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="325" name="HOMME" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="326" name="HOMME_QUI_A_UNE_RELATION_SENTIMENTALE_OU_SEXUELLE_AVEC_QQN" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="373" name="homme qui a une relation sentimentale ou sexuelle avec qqn" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="372" name="homme" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="387" name="individu de sexe masculin" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="341" name="INDIVIDU_PRÉSENTÉ_NÉGATIVEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="418" name="MAUVAIS_INDIVIDU" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="469" name="mauvais individu" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="391" name="individu présenté négativement" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="343" name="INDIVIDU_QUI_A_FAIT_UNE_ACTION_CONDAMNABLE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="342" name="INDIVIDU_QUI_A_COMMIS_UN_MÉFAIT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="349" name="INDIVIDU_QUI_A_UNE_ACTIVITÉ_ILLICITE_OU_QUI_A_COMMIS_UN_MÉFAIT" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="399" name="individu qui a une activité illicite ou qui a commis un méfait" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="392" name="individu qui a commis un méfait" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="393" name="individu qui a fait une action condamnable" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="344" name="INDIVIDU_QUI_A_UN_ATTRIBUT_[DONNÉ]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="362" name="INDIVIDU_QUI_POSSÈDE_UN_TITRE_DE_NOBLESSE" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="412" name="individu qui possède un titre de noblesse" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="563" name="SIGNE_ASTROLOGIQUE_[DE_QQN]" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="628" name="signe astrologique [de qqn]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="394" name="individu qui a un attribut [donné]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="351" name="INDIVIDU_QUI_A_UNE_CERTAINE_ACTIVITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="346" name="INDIVIDU_QUI_A_UNE_ACTIVITÉ_CACHÉE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="396" name="individu qui a une activité cachée" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="348" name="INDIVIDU_QUI_A_UNE_ACTIVITÉ_ILLICITE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="347" name="INDIVIDU_QUI_A_UNE_ACTIVITÉ_CRIMINELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="397" name="individu qui a une activité criminelle" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="349" name="INDIVIDU_QUI_A_UNE_ACTIVITÉ_ILLICITE_OU_QUI_A_COMMIS_UN_MÉFAIT" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="399" name="individu qui a une activité illicite ou qui a commis un méfait" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="398" name="individu qui a une activité illicite" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="364" name="INDIVIDU_QUI_PRATIQUE_UNE_ACTIVITÉ_MUSICALE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="414" name="individu qui pratique une activité musicale" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="401" name="individu qui a une certaine activité" status="1" derivation="---" acttype="" comment=""/>
+<instance id="847" name="ensemble d’individus qui ont une certaine activité" status="1" derivation="SetOf" acttype="" comment=""/>
+</class>
+<class id="669" name="INDIVIDU_QUI_A_UNE_CERTAINE_CARACTÉRISTIQUE" status="" semfield="0" inheritancetype="0" comment="">
+<class id="350" name="INDIVIDU_QUI_A_UNE_CARACTÉRISTIQUE_PHYSIQUE_[DONNÉE]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="335" name="INDIVIDU_DE_FORTE_TAILLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="385" name="individu de forte taille" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="400" name="individu qui a une caractéristique physique [donnée]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="844" name="individu qui a une certaine caractéristique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="352" name="INDIVIDU_QUI_A_UNE_CERTAINE_RELATION_AVEC_UN_AUTRE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="353" name="INDIVIDU_QUI_A_UNE_CERTAINE_RELATION_INTERPERSONNELLE_AVEC_UN_AUTRE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="297" name="FEMME_QUI_A_UNE_RELATION_SENTIMENTALE_OU_SEXUELLE_AVEC_UN_HOMME" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="337" name="femme qui a une relation sentimentale ou sexuelle avec un homme" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="326" name="HOMME_QUI_A_UNE_RELATION_SENTIMENTALE_OU_SEXUELLE_AVEC_QQN" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="373" name="homme qui a une relation sentimentale ou sexuelle avec qqn" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="403" name="individu qui a une certaine relation interpersonnelle avec un autre" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="402" name="individu qui a une certaine relation avec un autre" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="361" name="INDIVIDU_QUI_POSSÈDE_DES_BIENS" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="411" name="individu qui possède des biens" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="365" name="INDIVIDU_QUI_SE_SERT_D’UNE_ARME" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="415" name="individu qui se sert d’une arme" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="366" name="INDIVIDU_QUI_SE_TROUVE_DANS_UNE_CERTAINE_SITUATION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="340" name="INDIVIDU_IMPLIQUÉ_DANS_UNE_CONFRONTATION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="339" name="INDIVIDU_IMPLIQUÉ_DANS_UN_CONFLIT_ARMÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="389" name="individu impliqué dans un conflit armé" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="360" name="INDIVIDU_QUI_GAGNE_DANS_UNE_CONFRONTATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="410" name="individu qui gagne dans une confrontation" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="390" name="individu impliqué dans une confrontation" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="354" name="INDIVIDU_QUI_ASSISTE_[À_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="404" name="individu qui assiste [à qqch.]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="355" name="INDIVIDU_QUI_CONSOMME_[QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="405" name="individu qui consomme [qqch.]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="357" name="INDIVIDU_QUI_DIT_[QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="358" name="INDIVIDU_QUI_DÉCLARE_[QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="408" name="individu qui déclare [qqch.]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="407" name="individu qui dit [qqch.]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="367" name="INDIVIDU_QUI_SE_TROUVE_DANS_UNE_CERTAINE_SITUATION_FAMILIALE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="417" name="individu qui se trouve dans une certaine situation familiale" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="368" name="INDIVIDU_QUI_SE_TROUVE_DANS_UNE_SITUATION_CONTRAIGNANTE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="334" name="INDIVIDU_CAPTIF" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="384" name="individu captif" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="418" name="individu qui se trouve dans une situation contraignante" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="416" name="individu qui se trouve dans une certaine situation" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="383" name="individu" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="848" name="ensemble d’individus" status="1" derivation="SetOf" acttype="" comment=""/>
+<instance id="935" name="type d’individu" status="1" derivation="Type" acttype="0" comment=""/>
+</class>
+<instance id="740" name="être humain" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="899" name="ensemble d’êtres humains" status="1" derivation="SetOf" acttype="1" comment=""/>
+</class>
+<instance id="739" name="être animé" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="897" name="ensemble d’êtres animés" status="1" derivation="SetOf" acttype="1" comment=""/>
+</class>
+<class id="614" name="VÉGÉTAL" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="507" name="PLANTE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="566" name="plante" status="1" derivation="---" acttype="" comment=""/>
+<instance id="820" name="élément d’une plante" status="1" derivation="PartOf" acttype="" comment=""/>
+<instance id="858" name="ensemble de plantes" status="1" derivation="SetOf" acttype="" comment=""/>
+</class>
+<instance id="683" name="végétal" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="666" name="ÊTRE_IMAGINAIRE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="78" name="ANIMAL_IMAGINAIRE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="86" name="animal imaginaire" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="486" name="PERSONNIFICATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="545" name="personnification" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="741" name="être imaginaire" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="742" name="chose vivante" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="934" name="type de chose vivante" status="1" derivation="Type" acttype="0" comment=""/>
+</class>
+<class id="102" name="OBJET" status="1" semfield="1" inheritancetype="0" comment="[anciennement ‘ARTÉFACT’]
+chose
+- qui a une utilisation donnée
+(- fabriqué) [par ex., on peut utiliser un morceau de bois comme une canne]">
+<class id="12" name="ACCESSOIRE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="705" name="ACCESSOIRE_DE_JEU" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="851" name="accessoire de jeu" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="12" name="accessoire" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="105" name="OBJET_SERVANT_À_AGIR_SUR_LE_CORPS" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="436" name="MÉDICAMENT" status="1" semfield="1" inheritancetype="1" comment="Attention, un médicament contraceptif est un artéfact médical, mais n’est pas un médicament -- APol, 30i12.">
+<class id="437" name="MÉDICAMENT_SOLIDE_QU’ON_INGÈRE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="491" name="médicament solide qu’on ingère" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="490" name="médicament" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="116" name="objet servant à agir sur le corps" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="81" name="APPAREIL" status="1" semfield="1" inheritancetype="0" comment="A un lien avec ‘machine’, mais tout de même des étiquettes séparées. Un frigidaire est un appareil mais pas une machine. Un distributeur de billets est aussi bien machine que appareil.">
+<class id="83" name="APPAREIL_DE_GYMNASTIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="91" name="appareil de gymnastique" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="86" name="APPAREIL_SERVANT_À_CONSERVER_[QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="94" name="appareil servant à conserver [qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="87" name="APPAREIL_SERVANT_À_INDIQUER_L’HEURE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="95" name="appareil servant à indiquer l’heure" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="85" name="APPAREIL_SERVANT_À_CHAUFFER_[QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="82" name="APPAREIL_DE_CUISSON" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="90" name="appareil de cuisson" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="84" name="APPAREIL_SERVANT_À_BRÛLER_[QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="92" name="appareil servant à brûler [qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="93" name="appareil servant à chauffer [qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="89" name="appareil" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="783" name="type d’appareil" status="1" derivation="Type" acttype="" comment=""/>
+</class>
+<class id="698" name="APPAREIL_SANITAIRE" status="1" semfield="0" inheritancetype="0" comment="Il s’agit d’une locution. Un appareil sanitaire n’est pas un appareil.
+Noter que le genre prochain des définitions de noms d’appareils sanitaires (LAVABO, DOUCHE, etc.) ne sera pas ‘appareil sanitaire’, mais une formule basée, sur la définition de la locution, car cette dernière ne fait pas partie du vocabulaire de base du français.">
+<instance id="809" name="appareil sanitaire" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="171" name="CONSTRUCTION" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="131" name="BÂTIMENT_PUBLIC" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="141" name="bâtiment public" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="638" name="ÉTABLISSEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="639" name="ÉTABLISSEMENT_COMMERCIAL" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="641" name="ÉTABLISSEMENT_DE_RESTAURATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="713" name="établissement de restauration" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="711" name="établissement commercial" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="640" name="ÉTABLISSEMENT_CULTUREL" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="643" name="ÉTABLISSEMENT_DE_SPECTACLES" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="715" name="établissement de spectacles" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="712" name="établissement culturel" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="642" name="ÉTABLISSEMENT_DE_SOINS" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="714" name="établissement de soins" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="644" name="ÉTABLISSEMENT_INDUSTRIEL" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="716" name="établissement industriel" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="710" name="établissement" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="323" name="HABITATION" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="369" name="habitation" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="374" name="INSTITUTION_OU_CONSTRUCTION_L’ABRITANT" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="424" name="institution ou construction l’abritant" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="64" name="ADMINISTRATION_OU_CONSTRUCTION_L’ABRITANT" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="71" name="administration ou construction l’abritant" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="193" name="construction" status="1" derivation="---" acttype="" comment=""/>
+<instance id="821" name="élément d’une construction" status="1" derivation="ElementOf" acttype="" comment=""/>
+</class>
+<class id="200" name="DISPOSITIF" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="225" name="dispositif" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="1017" name="partie d’un dispositif" status="1" derivation="PartOf" acttype="0" comment=""/>
+</class>
+<class id="375" name="INSTRUMENT" status="1" semfield="1" inheritancetype="0" comment="artéfact que l’on manipule">
+<class id="376" name="INSTRUMENT_AGRICOLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="426" name="instrument agricole" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="379" name="INSTRUMENT_D’AIGUISAGE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="429" name="instrument d’aiguisage" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="377" name="INSTRUMENT_DE_MESURE" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="427" name="instrument de mesure" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="380" name="INSTRUMENT_D’OPTIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="430" name="instrument d’optique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="679" name="INSTRUMENT_SERVANT_À_CASSER" status="0" semfield="0" inheritancetype="0" comment="">
+<instance id="774" name="instrument servant à casser" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="381" name="INSTRUMENT_SERVANT_À_FUMER" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="431" name="instrument servant à fumer" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="382" name="INSTRUMENT_SERVANT_À_PRODUIRE_UN_SON" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="378" name="INSTRUMENT_DE_MUSIQUE" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="428" name="instrument de musique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="432" name="instrument servant à produire un son" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="383" name="INSTRUMENT_SERVANT_À_SE_PROTÉGER" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="433" name="instrument servant à se protéger" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="711" name="INSTRUMENT_SERVANT_À_TUER" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="98" name="ARME" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="109" name="arme" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="773" name="type d’arme" status="1" derivation="Type" acttype="" comment=""/>
+</class>
+<instance id="872" name="instrument servant à tuer" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="384" name="INSTRUMENT_SERVANT_À_ÉCLAIRER" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="434" name="instrument servant à éclairer" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="385" name="INSTRUMENT_TRANCHANT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="435" name="instrument tranchant" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="464" name="OUTIL" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="523" name="outil" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="608" name="USTENSILE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="609" name="USTENSILE_DE_MÉNAGE" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="678" name="ustensile de ménage" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="677" name="ustensile" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="425" name="instrument" status="1" derivation="---" acttype="" comment=""/>
+<instance id="917" name="petit instrument" status="1" derivation="Small" acttype="0" comment=""/>
+</class>
+<class id="435" name="MOYEN_DE_PAIEMENT" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="489" name="moyen de paiement" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="103" name="OBJET_AYANT_UNE_CERTAINE_FORME" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="114" name="objet ayant une certaine forme" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="104" name="OBJET_AYANT_UNE_FONCTION_ESTHÉTIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="463" name="ORNEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="125" name="BIJOU" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="134" name="bijou" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="218" name="DÉCORATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="246" name="décoration" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="522" name="ornement" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="115" name="objet ayant une fonction esthétique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="110" name="OBJET_SERVANT_À_FIXER_[QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="121" name="objet servant à fixer [qqch.]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="693" name="OBJET_SERVANT_À_IMMOBILISER_QQCH." status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="803" name="objet servant à immobiliser qqch." status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="111" name="OBJET_SERVANT_À_FOURNIR_UNE_INFORMATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="122" name="objet servant à founir une information" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="108" name="OBJET_SERVANT_D’OBSTACLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="119" name="objet servant d’obstacle" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="109" name="OBJET_SERVANT_À_FAIRE_DU_FEU" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="120" name="objet servant à faire du feu" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="107" name="OBJET_SERVANT_DE_CONDUIT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="118" name="objet servant de conduit" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="451" name="OBJET_SERVANT_DE_MATÉRIAU_DE_CONSTRUCTION" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="509" name="objet servant de matériau de construction" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="592" name="SUPPORT_PHYSIQUE_D’UN_DOCUMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="207" name="DOCUMENT" status="1" semfield="1" inheritancetype="1" comment="">
+<class id="211" name="DOCUMENT_ÉCRIT" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="208" name="DOCUMENT_JUSTIFICATIF" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="233" name="document justificatif" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="209" name="DOCUMENT_OFFICIEL" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="217" name="DÉCLARATION_OU_DOCUMENT_CORRESPONDANT" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="245" name="déclaration ou document correspondant" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="32" name="ACTE_OFFICIEL_OU_DOCUMENT_CORRESPONDANT" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="34" name="acte officiel ou document correspondant" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="234" name="document officiel" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="236" name="document écrit" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="210" name="DOCUMENT_PHOTOGRAPHIQUE" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="235" name="document photographique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="232" name="document" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="659" name="support physique d’un document" status="1" derivation="---" acttype="" comment=""/>
+<instance id="846" name="partie du support physique d’un document" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<class id="434" name="OBJET_SERVANT_À_SE_DÉPLACER" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="615" name="OBJET_SERVANT_À_EFFECTUER_DES_TRAJETS" status="1" semfield="0" inheritancetype="0" comment="artéfact servant à se déplacer
+- pour effectuer un trajet
+Cf. un ascenseur est un artéfact servant à se déplacer, mais pas
+à « effectuer un trajet »
++
+On ne sous-classifie pas ces artéfacts selon leur milieu/mode de fonctionnement
+(véhicule roulant, flottant, etc., qui sont des types de véhicules et pas des véhicules
+au sens strict). Cette dernière information est spécifiée dans une composante
+périphérique de la définition.">
+<class id="683" name="AÉRONEF" status="1" semfield="0" inheritancetype="0" comment="Classe d’étiquettes qu’il faut introduire bien que le terme « aéronef » ne soit pas du lexique courant.">
+<instance id="781" name="aéronef" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="841" name="ensemble d’aéronefs" status="1" derivation="SetOf" acttype="" comment=""/>
+</class>
+<class id="120" name="BATEAU" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="129" name="bateau" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="778" name="type de bateau" status="1" derivation="Type" acttype="" comment=""/>
+<instance id="840" name="ensemble de bateaux" status="1" derivation="SetOf" acttype="" comment=""/>
+<instance id="874" name="partie d’un bateau" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<class id="682" name="VÉHICULE" status="1" semfield="0" inheritancetype="0" comment="Il s’agit ici du sens courant de VÉHICULE, qui n’est pas le plus vague : voitures,
+motos, wagon, etc.
+IMPORTANT : ‘véhicule’ n‘étiquette pas que les noms de véhicules automobile ; cf. le cas de WAGON, FIACRE, etc.">
+<instance id="779" name="véhicule" status="1" derivation="---" acttype="" comment=""/>
+<instance id="780" name="type de véhicule" status="1" derivation="Type" acttype="" comment=""/>
+<instance id="850" name="ensemble de véhicules" status="1" derivation="SetOf" acttype="" comment=""/>
+<instance id="875" name="partie d’un véhicule" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<instance id="684" name="objet servant à effectuer des trajets" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="776" name="type d’objet servant à effectuer des trajets" status="1" derivation="Type" acttype="" comment=""/>
+<instance id="819" name="partie d’objet servant à effectuer des trajets" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<instance id="488" name="objet servant à se déplacer" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="686" name="OBJET_SERVANT_À_TRANSPORTER_QQCH." status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="786" name="objet servant à transporter qqch." status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="685" name="OBJET_SERVANT_À_Y_METTRE_QQCH." status="1" semfield="0" inheritancetype="0" comment="">
+<class id="554" name="RÉCIPIENT" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="501" name="PIÈCE_DE_VAISSELLE_QUI_EST_UN_RÉCIPIENT" status="1" semfield="0" inheritancetype="1" comment="">
+<class id="8" name="[UN]_VERRE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="8" name="[un] verre" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="560" name="pièce de vaisselle qui est un récipient" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="614" name="récipient" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="785" name="objet servant à y mettre qqch." status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="498" name="PIÈCE_DE_TISSU" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="497" name="PIÈCE_DE_LINGE_DE_MAISON" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="556" name="pièce de linge de maison" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="499" name="PIÈCE_DE_TISSU_À_VALEUR_SYMBOLIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="558" name="pièce de tissu à valeur symbolique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="557" name="pièce de tissu" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="500" name="PIÈCE_DE_VAISSELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="501" name="PIÈCE_DE_VAISSELLE_QUI_EST_UN_RÉCIPIENT" status="1" semfield="0" inheritancetype="1" comment="">
+<class id="8" name="[UN]_VERRE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="8" name="[un] verre" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="560" name="pièce de vaisselle qui est un récipient" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="559" name="pièce de vaisselle" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="502" name="PIÈCE_D’AMEUBLEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="421" name="MEUBLE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="422" name="MEUBLE_DE_RANGEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="474" name="meuble de rangement" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="576" name="SIÈGE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="642" name="siège" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="473" name="meuble" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="561" name="pièce d’ameublement" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="503" name="PIÈCE_D’HABILLEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="620" name="VÊTEMENT" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="689" name="vêtement" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="562" name="pièce d’habillement" status="1" derivation="---" acttype="" comment=""/>
+<instance id="845" name="ensemble de pièces d’habillement" status="1" derivation="SetOf" acttype="" comment=""/>
+</class>
+<class id="504" name="PIÈCE_D’UN_OBJET" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="563" name="pièce d’un objet" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="526" name="PROJECTILE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="585" name="projectile" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="722" name="OBJET_AYANT_UNE_FONCTION_SYMBOLIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="944" name="objet ayant une fonction symbolique" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="113" name="objet" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="537" name="partie d’un objet" status="1" derivation="PartOf" acttype="" comment=""/>
+<instance id="784" name="type d’objet" status="1" derivation="Claus" acttype="0" comment=""/>
+<instance id="863" name="ensemble d’objets" status="1" derivation="SetOf" acttype="1" comment=""/>
+</class>
+<class id="449" name="CHOSE_QUE_L’ON_TRANSPORTE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="507" name="chose que l’on transporte" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="506" name="chose [physique]" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="825" name="partie d’une chose physique" status="1" derivation="PartOf" acttype="0" comment=""/>
+<instance id="849" name="ensemble de choses physiques" status="1" derivation="SetOf" acttype="1" comment=""/>
+<instance id="995" name="relatif à une chose physique" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<class id="467" name="PARTIE_D’ENTITÉ" status="1" semfield="0" inheritancetype="0" comment="À utiliser uniquement pour les lexies quasi-vides, ne signifiant avant tout que ‘partie de’.
+Sinon, utiliser les instances dérivées de type PartOf.">
+<instance id="526" name="partie d’entité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="537" name="QQCH._QUI_EST_DIT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="634" name="ÉNONCÉ" status="1" semfield="1" inheritancetype="1" comment="">
+<class id="635" name="ÉNONCÉ_EXCLAMATIF" status="1" semfield="0" inheritancetype="0" comment="Distinct de EXCLAMATION, qui est un son produit pour communiquer mais n’est pas un énoncé.">
+<instance id="706" name="le locuteur s’exclame" status="1" derivation="Claus" acttype="" comment=""/>
+<instance id="707" name="énoncé exclamatif" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="541" name="QUESTION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="602" name="question" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="636" name="ÉNONCÉ_OU_GESTE_EXPRESSIF" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="708" name="énoncé ou geste expressif" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="703" name="le locuteur dit" status="1" derivation="Claus" acttype="" comment=""/>
+<instance id="704" name="relatif à un type d’énoncé" status="1" derivation="A0" acttype="" comment=""/>
+<instance id="705" name="énoncé" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="598" name="qqch. qui est dit" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="539" name="QQCH._QUI_REND_POSSIBLE_QQCH._D’AUTRE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="600" name="qqch. qui rend possible qqch. d’autre" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="535" name="QQCH._DE_NUISIBLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="596" name="qqch. de nuisible" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="538" name="QQCH._QUI_FAVORISE_UNE_AMÉLIORATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="599" name="qqch. qui favorise une amélioration" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="536" name="QQCH._QUE_L’ON_CONSOMME" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="66" name="ALIMENT" status="1" semfield="1" inheritancetype="0" comment="On n’utilise pas l’étiquette ‘nourriture’, qui est plus spécifique que ‘aliment’ et ne semble pas jouer de rôle dans la hiérarchie.  (APol, 30i12)">
+<class id="67" name="ALIMENT_PRÉPARÉ" status="1" semfield="0" inheritancetype="0" comment="Par exemple, YAOURT. Se distingue de ‘préparation alimentaire’, par exemple CASSOULET.">
+<instance id="75" name="aliment préparé" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="838" name="portion d’aliment préparé" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<class id="151" name="CHAIR_ANIMALE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="2" name="[DU]_POISSON" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="2" name="[du] poisson" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="611" name="VIANDE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="1" name="[DE_LA]_VOLAILLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="1" name="[de la] volaille" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="680" name="viande" status="1" derivation="---" acttype="" comment=""/>
+<instance id="835" name="portion de viande" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<instance id="169" name="chair animale" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="301" name="FLUIDE_CORPOREL_QUI_SERT_D’ALIMENT" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="342" name="fluide corporel qui sert d’aliment" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="310" name="FRUIT" status="1" semfield="1" inheritancetype="0" comment="Se distingue de ‘fruit d’une plante’.">
+<instance id="355" name="fruit" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="407" name="LÉGUME" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="458" name="légume" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="586" name="SUBSTANCE_ALIMENTAIRE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="653" name="substance alimentaire" status="1" derivation="---" acttype="" comment=""/>
+<instance id="837" name="portion de substance alimentaire" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<class id="531" name="PRÉPARATION_ALIMENTAIRE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="465" name="PAIN_PRÉPARÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="524" name="pain préparé" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="612" name="VIANDE_PRÉPARÉE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="681" name="viande préparée" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="591" name="préparation alimentaire" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="74" name="aliment" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="836" name="portion d’aliment" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<class id="126" name="BOISSON" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="127" name="BOISSON_ALCOOLISÉE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="136" name="boisson alcoolisée" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="128" name="BOISSON_CHAUDE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="137" name="boisson chaude" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="135" name="boisson" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="828" name="portion de boisson" status="1" derivation="PartOf" acttype="" comment=""/>
+</class>
+<class id="153" name="CHOSE_FABRIQUÉE_POUR_ÊTRE_FUMÉE" status="1" semfield="0" inheritancetype="0" comment="Comme les aliments « fabriqués » (saucisson...), chose fabriquée pour être fumée est qqch. qu’on consomme, et pas un artéfact.">
+<instance id="171" name="chose fabriquée pour être fumée" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="597" name="qqch. que l’on consomme" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="213" name="DOMAINE_D’ACTIVITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="197" name="DISCIPLINE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="59" name="ACTIVITÉ_ARTISTIQUE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="65" name="activité artistique" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="582" name="SPORT" status="1" semfield="1" inheritancetype="1" comment="">
+<instance id="649" name="sport" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="222" name="discipline" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="238" name="domaine d’activité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="453" name="OCCUPATION_SOCIALE" status="1" semfield="0" inheritancetype="0" comment="">
+  <class id="441" name="MÉTIER" status="1" semfield="1" inheritancetype="0" comment="On a beaucoup hésité entre ‘profession’ et ‘métier’. Même si le second semble plus général, il semble convenir moins bien pour l’étiquetage. On l’utilise tout de même.">
+    <instance id="413" name="individu qui pratique un métier" status="1" derivation="S1" acttype="0" comment=""/>
+    <instance id="498" name="métier" status="1" derivation="---" acttype="0" comment=""/>
+  </class>
+  <class id="304" name="FONCTION_SOCIALE" status="1" semfield="0" inheritancetype="0" comment="Proche de ‘métier’ mais vu sous l’angle du service à la société (MINISTRE‘politique’, MINISTRE‘religion’).">
+    <instance id="347" name="fonction sociale" status="1" derivation="---" acttype="0" comment=""/>
+    <instance id="409" name="individu qui exerce une fonction sociale" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<instance id="511" name="occupation sociale" status="1" derivation="---" acttype="1" comment=""/>
+</class>
+<class id="214" name="DOMMAGE_PHYSIQUE" status="1" semfield="0" inheritancetype="2" comment="Les sous-étiquettes auront noramlement deux mères, une prédicative et une quasi-prédicative. C’est la mère mère quasi-prédicative qui domine. Par exemple, PLAIE -> avant tout qqch. qui est dans un certain état et, de façon secondaire, un dommage physique.">
+<class id="408" name="LÉSION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="459" name="lésion" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="239" name="dommage physique" status="1" derivation="---" acttype="" comment=""/>
+<instance id="240" name="endommagé" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="241" name="qqch. d’endommagé" status="1" derivation="S1" acttype="" comment=""/>
+</class>
+<instance id="281" name="entité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="273" name="FAIT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="35" name="ACTION" status="1" semfield="0" inheritancetype="0" comment="Fait ponctuel dont le premier actant est agent -> X est causateur volontaire">
+<class id="27" name="ACTE_DE_COMMUNICATION" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="159" name="COMMUNICATION_LANGAGIÈRE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="216" name="DÉCLARATION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="217" name="DÉCLARATION_OU_DOCUMENT_CORRESPONDANT" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="245" name="déclaration ou document correspondant" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="243" name="déclaration" status="1" derivation="---" acttype="" comment=""/>
+<instance id="244" name="déclarer [qqch.]" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<class id="623" name="ÉCHANGE_DE_PROPOS" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="198" name="DISCUSSION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="223" name="discussion" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="624" name="ÉCHANGE_VERBAL" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="65" name="AFFRONTEMENT_VERBAL" status="" semfield="0" inheritancetype="1" comment="">
+<instance id="72" name="affrontement verbal" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="73" name="s’affronter verbalement" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="693" name="échange verbal" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="692" name="échange de propos" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="283" name="FAIT_DE_QUESTIONNER" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="314" name="fait de questionner" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="556" name="RÉPRIMANDE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="616" name="réprimande" status="1" derivation="---" acttype="" comment=""/>
+<instance id="617" name="réprimander" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="177" name="communication langagière" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="178" name="dire [qqch.]" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="179" name="qui exprime un énoncé d’un certain type" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="974" name="relatif à une communication langagière" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<class id="579" name="SON_EXPRESSIF" status="1" semfield="0" inheritancetype="1" comment="">
+<class id="188" name="CRI" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="189" name="CRI_D’ANIMAL" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="212" name="cri d’animal" status="1" derivation="---" acttype="" comment=""/>
+<instance id="945" name="[animal] émettre un cri" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="978" name="[animal] qui émet un cri" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="979" name="relatif à un cri d’animal" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<instance id="211" name="cri" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="975" name="crier" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="976" name="relatif à un cri" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="977" name="qui crie" status="1" derivation="A1" acttype="0" comment=""/>
+</class>
+<class id="703" name="SON MUSICAL" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="830" name="son musical" status="1" derivation="---" acttype="" comment=""/>
+<instance id="831" name="ensemble de sons musicaux" status="1" derivation="SetOf" acttype="" comment=""/>
+</class>
+<instance id="645" name="son expressif" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="646" name="produire un son expressif" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="832" name="ensemble de sons expressifs" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="1015" name="relatif à un son expressif" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<instance id="27" name="acte de communication" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="885" name="communiquer [qqch.]" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<class id="30" name="ACTE_OFFICIEL" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="28" name="ACTE_JURIDIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="28" name="accomplir un acte juridique" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="29" name="acte juridique" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="31" name="ACTE_OFFICIEL_CONSISTANT_À_ABANDONNER_UNE_FONCTION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="32" name="accomplir un acte officiel consistant à abandonner une fonction" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="33" name="acte officiel consistant à abandonner une fonction" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="32" name="ACTE_OFFICIEL_OU_DOCUMENT_CORRESPONDANT" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="34" name="acte officiel ou document correspondant" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="31" name="acte officiel" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="49" name="ACTION_PHYSIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="41" name="ACTION_DE_NATURE_SEXUELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="34" name="ACTE_SEXUEL" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="36" name="acte sexuel" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="173" name="CONTACT_SEXUEL" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="195" name="contact sexuel" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="43" name="action de nature sexuelle" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="702" name="ACTION_DE_CHANGER_DE_LOCALISATION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="42" name="ACTION_DE_SE_DÉPLACER" status="1" semfield="1" inheritancetype="0" comment="Se distingue de ‘déplacement’, qui est un processus (non-volitionnel).">
+<instance id="44" name="action de se déplacer" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="45" name="[qqn] se déplacer" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<instance id="817" name="action de changer de localisation" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="818" name="changer de localisation" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="433" name="MOUVEMENT_EFFECTUÉ" status="1" semfield="0" inheritancetype="0" comment="Agentif. S’oppose à MOUVEMENT_[DE_QQCH.].">
+<class id="727" name="EXPRESSION_FACIALE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="1005" name="expression faciale" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="1006" name="avoir une expression faciale" status="1" derivation="V0" acttype="" comment=""/>
+<instance id="1007" name="qui a une expression faciale" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="1008" name="relatif à une expression faciale" status="1" derivation="A0" acttype="" comment=""/>
+<instance id="1009" name="qui tend à avoir une expression faciale" status="1" derivation="Able1" acttype="" comment=""/>
+<instance id="1010" name="individu qui a une expression faciale" status="1" derivation="S1" acttype="1" comment=""/>
+</class>
+<class id="432" name="MOUVEMENT_DU_CORPS" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="313" name="GESTE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="314" name="GESTE_EXPRESSIF" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="636" name="ÉNONCÉ_OU_GESTE_EXPRESSIF" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="708" name="énoncé ou geste expressif" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="359" name="geste expressif" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="358" name="geste" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="486" name="mouvement du corps" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="487" name="mouvement effectué" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="44" name="ACTION_DE_S’ALIMENTER" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="48" name="action de s’alimenter" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="49" name="s’alimenter" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<class id="55" name="ACTION_SUR_UNE_CHOSE_PHYSIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="40" name="ACTION_DE_DÉGARNIR" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="42" name="action de dégarnir" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="184" name="COUP_[DONNÉ]" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="185" name="COUP_DONNÉ_À_QQN" status="" semfield="0" inheritancetype="0" comment="">
+<instance id="208" name="coup donné à qqn" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="207" name="coup [donné]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="276" name="FAIT_DE_DÉPLACER" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="527" name="PROJECTION_D’UN_OBJET" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="392" name="LANCEMENT_D’UN_PROJECTILE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="393" name="LANCEMENT_D’UN_PROJECTILE_OU_SON_QUI_L’ACCOMPAGNE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="444" name="lancement d’un projectile ou son qui l’accompagne" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="443" name="lancement d’un projectile" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="586" name="projection d’un objet" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="306" name="fait de déplacer" status="1" derivation="---" acttype="" comment=""/>
+<instance id="856" name="déplacer" status="1" derivation="V0" acttype="" comment=""/>
+<instance id="857" name="qqch. que l’on déplace" status="1" derivation="S2" acttype="" comment=""/>
+</class>
+<class id="285" name="FAIT_DE_RÉUNIR" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="286" name="FAIT_DE_RÉUNIR_DES_OBJETS" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="318" name="fait de réunir des objets" status="1" derivation="---" acttype="" comment=""/>
+<instance id="319" name="réunir des objets" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="317" name="fait de réunir" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="423" name="MISE_EN_ROUTE_D’UN_OBJET_VOLANT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="475" name="mise en route d’un objet volant" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="443" name="NETTOYAGE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="394" name="LAVAGE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="445" name="lavage" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="501" name="nettoyage" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="546" name="REPRODUCTION_DE_DOCUMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="606" name="reproduction de document" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="61" name="action sur une chose physique" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="55" name="action physique" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="33" name="ACTE_PSYCHIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="327" name="RAISONNEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="374" name="raisonnement" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="895" name="raisonner" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<instance id="35" name="acte psychique" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="870" name="accomplir un acte psychique" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="36" name="ACTION_BÉNÉFIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="38" name="action bénéfique" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="38" name="ACTION_DE_CHOISIR" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="40" name="action de choisir" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="29" name="ACTE_À_CARACTÈRE_MÉDICAL" status="1" semfield="1" inheritancetype="0" comment="On a écarté ‘acte médical’, qui correspond à une locution du français ayant un sens trop spécifique. Par exemple, une manipulation faite par un kyné est un acte à caractère médical, mais pas un acte médical.">
+<class id="265" name="EXAMEN_MÉDICAL" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="294" name="examen médical" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="388" name="INTERVENTION_MÉDICALE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="438" name="intervention médicale" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="30" name="acte à caractère médical" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="1004" name="effectuer un acte à caractère médical" status="1" derivation="V0" acttype="1" comment=""/>
+</class>
+<class id="47" name="ACTION_NÉGATIVE_[VIS_À_VIS_DE_QQN]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="48" name="ACTION_OFFENSANTE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="54" name="action offensante" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="424" name="MISE_EN_ÉCHEC_[DE_QQN]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="476" name="mettre en échec [qqn]" status="1" derivation="V0" acttype="" comment=""/>
+<instance id="477" name="mise en échec [de qqn]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="558" name="SANCTION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="532" name="PUNITION" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="592" name="punir" status="1" derivation="V0" acttype="" comment=""/>
+<instance id="593" name="punition" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="619" name="sanction" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="52" name="action négative [vis-à-vis de qqn]" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="53" name="agir négativement [vis-à-vis de qqn]" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="51" name="ACTION_PROSCRITE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="37" name="ACTION_CONDAMNABLE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="438" name="MÉFAIT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="190" name="CRIME_DE_SANG" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="213" name="crime de sang" status="1" derivation="---" acttype="" comment=""/>
+<instance id="214" name="qui est un crime de sang" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="215" name="relatif au crime de sang" status="1" derivation="A0" acttype="" comment=""/>
+</class>
+<instance id="492" name="méfait" status="1" derivation="---" acttype="" comment=""/>
+<instance id="493" name="qui est un méfait" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="494" name="relatif au méfait" status="1" derivation="A0" acttype="" comment=""/>
+<instance id="759" name="commettre un méfait" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="39" name="action condamnable" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="52" name="ACTION_PROSCRITE_DANS_UN_SPORT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="58" name="action proscrite dans un sport" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="57" name="action proscrite" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="54" name="ACTION_SOCIALE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="406" name="LUTTE_SOCIALE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="457" name="lutte sociale" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="60" name="action sociale" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="165" name="CONFRONTATION" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="65" name="AFFRONTEMENT_VERBAL" status="" semfield="0" inheritancetype="1" comment="">
+<instance id="72" name="affrontement verbal" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="73" name="s’affronter verbalement" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<class id="166" name="CONFRONTATION_ARMÉE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="164" name="CONFLIT_ARMÉ" status="1" semfield="1" inheritancetype="1" comment="À la fois un Sub de ‘confrontation armée’, ‘situation’ et ‘processus social’. Noter qu’une bataille est une confrontation mais qu’une guerre est un conflit armé (type particulier de confrontation).">
+<instance id="186" name="conflit armé" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="188" name="confrontation armée" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="167" name="CONFRONTATION_D’IDÉES" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="189" name="confrontation d’idées" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="168" name="CONFRONTATION_PHYSIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="155" name="COMBAT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="156" name="COMBAT_QUI_EST_UN_SPECTACLE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="174" name="combat qui est un spectacle" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="173" name="combat" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="622" name="ÉCHANGE_DE_COUPS" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="691" name="échange de coups" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="190" name="confrontation physique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="169" name="CONFRONTATION_SOCIALE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="191" name="confrontation sociale" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="187" name="confrontation" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="220" name="DÉPART" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="249" name="départ" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="627" name="ÉLIMINATION_[DE_QQCH.]" status="" semfield="0" inheritancetype="0" comment="">
+<instance id="696" name="élimination [de qqch.]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="277" name="FAIT_DE_FAIRE_CESSER_[QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="45" name="ACTION_DE_TUER" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="43" name="ACTION_DE_SE_TUER" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="46" name="action de se tuer" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="47" name="se tuer" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<class id="190" name="CRIME_DE_SANG" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="213" name="crime de sang" status="1" derivation="---" acttype="" comment=""/>
+<instance id="214" name="qui est un crime de sang" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="215" name="relatif au crime de sang" status="1" derivation="A0" acttype="" comment=""/>
+</class>
+<instance id="50" name="action de tuer" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="307" name="fait de faire cesser [qqch.]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="282" name="FAIT_DE_MODIFIER_UN_MONTANT_D’ARGENT" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="289" name="FAIT_D’AUGMENTER_UN_MONTANT_D’ARGENT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="322" name="fait d’augmenter un montant d’argent" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="275" name="FAIT_DE_DIMINUER_UN_MONTANT_D’ARGENT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="305" name="fait de diminuer un montant d’argent" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="313" name="fait de modifier un montant d’argent" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="39" name="TRANSFERT_DE_POSSESSION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="41" name="transfert de possession" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="921" name="transférer la possession de qqch." status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="922" name="qqn qui transfert la possession de qqch." status="1" derivation="S1" acttype="0" comment=""/>
+<instance id="923" name="qqn à qui on transfert la possession de qqch." status="1" derivation="S2" acttype="1" comment=""/>
+<instance id="924" name="qqn susceptible de transférer la possession de qqch." status="1" derivation="Able1" acttype="1" comment=""/>
+<instance id="925" name="qqch. dont on transfert la possession" status="1" derivation="S3" acttype="0" comment=""/>
+</class>
+<class id="610" name="UTILISATION_D’UN_SENS" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="284" name="FAIT_DE_REGARDER" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="315" name="fait de regarder" status="1" derivation="---" acttype="" comment=""/>
+<instance id="316" name="regarder" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="679" name="utilisation d’un sens" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="46" name="ACTION_D’UN_CERTAIN_TYPE" status="1" semfield="0" inheritancetype="2" comment="">
+<class id="53" name="ACTION_QUI_REFLÈTE_UN_CERTAIN_TRAIT_DE_CARACTÈRE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="59" name="action qui reflète un certain trait de caractère" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="224" name="EFFORT" status="" semfield="0" inheritancetype="0" comment="">
+<instance id="253" name="effort" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="51" name="action d’un certain type" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="37" name="action" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="926" name="faire qqch." status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="57" name="ACTIVITÉ_[DE_QQN]" status="1" semfield="0" inheritancetype="0" comment="Fait non ponctuel, typiquement réitération de faits, dont le premier actant est agent -> X est causateur volontaire.
+Est le pendant ‘fait’ de ‘domaine d’activité’.">
+<class id="58" name="ACTIVITÉ_[QUE_L’ON_PRATIQUE]" status="1" semfield="0" inheritancetype="0" comment="Est le pendant ‘entité’ de ‘activité [de qqn]’.">
+<class id="391" name="JEU" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="442" name="jeu" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="59" name="ACTIVITÉ_ARTISTIQUE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="65" name="activité artistique" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="582" name="SPORT" status="1" semfield="1" inheritancetype="1" comment="">
+<instance id="649" name="sport" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="64" name="activité [que l’on pratique]" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="61" name="ACTIVITÉ_SOCIALE" status="1" semfield="0" inheritancetype="0" comment="MINISTÈRE#II">
+<instance id="67" name="activité sociale" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="603" name="TRAVAIL_[EFFECTUÉ_PAR_QQN]" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="604" name="TRAVAIL_PÉNIBLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="673" name="travail pénible" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="672" name="travail [effectué par qqn]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="675" name="FAIT_DE_SE_NOURRIR" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="545" name="REPAS" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="605" name="repas" status="1" derivation="---" acttype="" comment=""/>
+<instance id="762" name="faire un repas" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="763" name="fait de se nourrir" status="1" derivation="---" acttype="" comment=""/>
+<instance id="764" name="se nourrir" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="63" name="activité [de qqn]" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="754" name="[qqn] avoir une certaine activité" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="910" name="type d’activité [de qqn]" status="1" derivation="Type" acttype="0" comment=""/>
+<instance id="920" name="qqn qui a une certaine activité" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<class id="138" name="CARACTÉRISTIQUE" status="1" semfield="0" inheritancetype="0" comment="non agentif, non transitoire [on possède une caractéristique]">
+<class id="114" name="ATMOSPHÈRE_D’UN_LIEU" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="744" name="atmosphère d’un lieu" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="116" name="ATTRIBUT_[DE_QQN]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="362" name="INDIVIDU_QUI_POSSÈDE_UN_TITRE_DE_NOBLESSE" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="412" name="individu qui possède un titre de noblesse" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="563" name="SIGNE_ASTROLOGIQUE_[DE_QQN]" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="628" name="signe astrologique [de qqn]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="125" name="attribut de [qqn]" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="132" name="CAPACITÉ" status="1" semfield="0" inheritancetype="0" comment="Voir remarque sous ‘aptitude’.">
+<class id="91" name="APTITUDE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="93" name="APTITUDE_À_COMMUNIQUER_PAR_LE_LANGAGE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="92" name="APTITUDE_À_COMMUNIQUER_ORALEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="103" name="aptitude à communiquer oralement" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="95" name="APTITUDE_À_COMMUNIQUER_PAR_ÉCRIT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="106" name="aptitude à communiquer par écrit" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="94" name="APTITUDE_À_COMMUNIQUER_PAR_LE_LANGAGE_ET_TRAIT_DE_CARCTÈRE_CORRESPONDANT" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="105" name="aptitude à communiquer par le langage et trait de caractère correspondant" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="104" name="aptitude à communiquer par le langage" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="97" name="APTITUDE_À_RAISONNER" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="108" name="aptitude à raisonner" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="96" name="APTITUDE_À_CONCEVOIR_DES_IDÉES" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="107" name="aptitude à concevoir des idées" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="102" name="aptitude" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="271" name="FACULTÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="272" name="FACULTÉ_SENSORIELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="302" name="faculté sensorielle" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="301" name="faculté" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="142" name="capacité" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="133" name="CARACTÈRE_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="135" name="CARACTÈRE_NÉGATIF_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="134" name="CARACTÈRE_INSUFFISANT_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="143" name="caractère insuffisant [de qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="144" name="caractère négatif [de qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="145" name="qqch. qui a un caractère négatif" status="1" derivation="S1" acttype="" comment=""/>
+<instance id="146" name="qui a un caractère négatif" status="1" derivation="A1" acttype="" comment=""/>
+</class>
+<class id="136" name="CARACTÈRE_POSITIF_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="137" name="CARACTÈRE_REMARQUABLE_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="148" name="caractère remarquable [qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="149" name="ensemble de choses remarquables" status="1" derivation="S1" acttype="" comment=""/>
+</class>
+<class id="266" name="EXCELLENCE_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="295" name="excellence [de qqch.]" status="1" derivation="---" acttype="" comment=""/>
+<instance id="296" name="qqch. d’excellent" status="1" derivation="S1" acttype="" comment=""/>
+</class>
+<instance id="147" name="caractère positif [de qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="843" name="caractère [de qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="927" name="qui a un caractère donné" status="1" derivation="A1" acttype="0" comment=""/>
+</class>
+<class id="141" name="CARACTÉRISTIQUE_D’UN_TEXTE_OU_D’UN_ÉNONCÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="405" name="LONGUEUR_D’UN_TEXTE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="455" name="[texte] d’une certaine longueur" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="456" name="longueur d’un texte" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="155" name="caractéristique d’un texte ou d’un énoncé" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="139" name="CARACTÉRISTIQUE_DE_FABRICATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="153" name="caractéristique de fabrication" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="140" name="CARACTÉRISTIQUE_DE_FONCTIONNEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="154" name="caractéristique de fonctionnement" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="940" name="qqch. qui a une certaine caractéristique de fonctionnement" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<class id="143" name="CARACTÉRISTIQUE_PHYSIOLOGIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="621" name="ÂGE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="690" name="âge" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="157" name="caractéristique physiologique" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="144" name="CARACTÉRISTIQUE_PHYSIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="142" name="CARACTÉRISTIQUE_LIÉE_À_LA_PERCEPTION_SENSORIELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="146" name="CARACTÉRISTIQUE_VISUELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="88" name="APPARENCE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="96" name="apparence" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="992" name="avoir une certaine apparence" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="993" name="qui a une certaine apparence" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="994" name="qqch. qui a une certaine apparence" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<class id="307" name="FORME_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="Contraste avec [UNE]_FORME dans le sens de ‘forme géométrique’.">
+<instance id="351" name="forme [de qqch.]" status="1" derivation="---" acttype="" comment=""/>
+<instance id="352" name="qui a une certaine forme" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="758" name="avoir une certaine forme" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="668" name="ENTITÉ_OU_CARACTÉRISTIQUE_VISUELLE" status="1" semfield="0" inheritancetype="1" comment="">
+<class id="183" name="COULEUR_(DE_QQCH.)" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="205" name="couleur (de qqch.)" status="1" derivation="---" acttype="" comment=""/>
+<instance id="206" name="d’une certaine couleur" status="1" derivation="A1" acttype="" comment=""/>
+</class>
+<instance id="743" name="entité ou caractéristique visuelle" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="160" name="caractéristique visuelle" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="315" name="GOÛT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="360" name="goût" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="454" name="ODEUR" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="512" name="odeur" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="580" name="SONORITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="647" name="sonorité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="156" name="caractéristique liée à la perception sensorielle" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="196" name="DIMENSION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="221" name="dimension" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="987" name="relatif à la dimension" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="988" name="qui a une certaine dimension" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="989" name="individu qui a une certaine dimension" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<class id="404" name="LOCALISATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="747" name="localisation" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="597" name="TEMPÉRATURE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="664" name="température" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="692" name="POSITIONNEMENT" status="1" semfield="0" inheritancetype="0" comment="Se distingue de POSITION, qui est un état.">
+<instance id="801" name="positionnement" status="1" derivation="---" acttype="" comment=""/>
+<instance id="802" name="être positionné" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="158" name="caractéristique physique" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="1011" name="avoir une certaine caractéristique physique" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="1012" name="qui a une certaine caractéristique physique" status="1" derivation="A1" acttype="0" comment=""/>
+</class>
+<class id="145" name="CARACTÉRISTIQUE_SOCIALE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="330" name="ILLÉGALITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="378" name="illégal" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="379" name="illégalité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="159" name="caractéristique sociale" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="725" name="CARACTÉRISTIQUE_TEMPORELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="726" name="DURÉE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="999" name="durée" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="1000" name="relatif à une durée" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="1001" name="qui a une certaine durée" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="1002" name="durer un certain temps" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="426" name="MOMENT_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="480" name="moment [de qqch.]" status="1" derivation="---" acttype="" comment=""/>
+<instance id="865" name="qui a lieu à un certain moment" status="1" derivation="A2" acttype="" comment=""/>
+</class>
+<instance id="996" name="caractéristique temporelle" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="997" name="relatif à une caractéristique temporelle" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="998" name="qui a une certaine caractéristique temporelle" status="1" derivation="A1" acttype="0" comment=""/>
+</class>
+<class id="212" name="DOMAINE_DE_COMPÉTENCE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="237" name="domaine de compétence" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="293" name="FAÇON_DE_FAIRE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="294" name="FAÇON_DE_PARLER_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="333" name="façon de parler [de qqch.]" status="1" derivation="---" acttype="" comment=""/>
+<instance id="334" name="parler [de qqch.] d’une certaine façon" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="330" name="d’une certaine façon" status="1" derivation="Adv0" acttype="" comment=""/>
+<instance id="331" name="faire [qqch.] d’une certaine façon" status="1" derivation="V0" acttype="" comment=""/>
+<instance id="332" name="façon de faire" status="1" derivation="---" acttype="" comment=""/>
+<instance id="1003" name="qui est fait d’une certaine façon" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<class id="302" name="FONCTION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="303" name="FONCTION_CONSISTANT_À_APPORTER_UNE_INFORMATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="345" name="dont la fonction est d’apporter une information" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="346" name="fonction consistant à apporter une information" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="343" name="fonction" status="1" derivation="---" acttype="" comment=""/>
+<instance id="344" name="qqch. qui a une certaine fonction" status="1" derivation="S1" acttype="" comment=""/>
+</class>
+<class id="509" name="PLUS_OU_MOINS_BONNE_QUALITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="129" name="BONNE_QUALITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="138" name="bonne qualité" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="419" name="MAUVAISE_QUALITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="470" name="mauvaise qualité" status="1" derivation="---" acttype="" comment=""/>
+<instance id="471" name="qqch. de mauvaise qualité" status="1" derivation="S1" acttype="" comment=""/>
+</class>
+<instance id="568" name="plus ou moins bonne qualité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="510" name="PLUS_OU_MOINS_GRANDE_FACILITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="195" name="DIFFICULTÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="220" name="difficulté" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="270" name="FACILITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="300" name="facilité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="569" name="plus ou moins grande facilité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="511" name="PLUS_OU_MOINS_GRANDE_IMPORTANCE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="316" name="GRANDE_IMPORTANCE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="361" name="de grande importance" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="362" name="grande importance" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="425" name="MOINDRE_IMPORTANCE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="478" name="de moindre importance" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="479" name="moindre importance" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="442" name="MÊME_IMPORTANCE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="499" name="de même importance" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="500" name="même importance" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="570" name="plus ou moins grande importance" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="194" name="DEGRÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="324" name="HAUT_DEGRÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="370" name="d’un haut degré" status="1" derivation="A0" acttype="" comment=""/>
+<instance id="371" name="haut degré" status="1" derivation="---" acttype="" comment=""/>
+<instance id="753" name="à un haut degré" status="1" derivation="Adv0" acttype="" comment=""/>
+</class>
+<instance id="219" name="degré" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="512" name="PLUS_OU_MOINS_GRANDE_INTENSITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="317" name="GRANDE_INTENSITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="363" name="grande intensité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="571" name="plus ou moins grande intensité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="513" name="PLUS_OU_MOINS_GRANDE_POSSIBILITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="572" name="plus ou moins grande possibilité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="530" name="PRÉDISPOSITION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="590" name="prédisposition" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="528" name="PROPRIÉTÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="587" name="avoir une certaine propriété" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="588" name="propriété" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="583" name="STRUCTURE_LOGIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="650" name="structure logique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="602" name="TRAIT_DE_CARACTÈRE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="94" name="APTITUDE_À_COMMUNIQUER_PAR_LE_LANGAGE_ET_TRAIT_DE_CARCTÈRE_CORRESPONDANT" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="105" name="aptitude à communiquer par le langage et trait de caractère correspondant" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="669" name="qui a un certain trait de caractère" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="670" name="qui est la manifestation d’un trait de caractère" status="1" derivation="A2Manif" acttype="" comment=""/>
+<instance id="671" name="trait de caractère" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="606" name="TYPE" status="1" semfield="0" inheritancetype="0" comment="Tous les noms étiquettés par des instances nominales de cette sous-hiérarchie s’emploient soit pour dénoter une entité d’un certain type (« Un gaz était répandu dans la pièce. ») soit pour dénoter un type d’entité (« Le X-2354 est un gaz. »).
+Par contraste, l’acception de GAZ qui l’on trouve dans « Ça sent le gaz. » dénote une entité (une substance) uniquement, et pas le type.">
+<class id="46" name="ACTION_D’UN_CERTAIN_TYPE" status="1" semfield="0" inheritancetype="2" comment="">
+<class id="53" name="ACTION_QUI_REFLÈTE_UN_CERTAIN_TRAIT_DE_CARACTÈRE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="59" name="action qui reflète un certain trait de caractère" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="224" name="EFFORT" status="" semfield="0" inheritancetype="0" comment="">
+<instance id="253" name="effort" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="51" name="action d’un certain type" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="232" name="ENSEMBLE_DE_FAITS_D’UN_CERTAIN_TYPE" status="1" semfield="0" inheritancetype="2" comment="">
+<class id="251" name="ENSEMBLE_INCOHÉRENT_[DE_FAITS]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="279" name="ensemble incohérent [de faits]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="261" name="ensemble de faits d’un certain type" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="675" name="type" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="150" name="avoir une certaine caractéristique" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="151" name="caractéristique" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="152" name="qui a une certaine caractéristique" status="1" derivation="A1" acttype="" comment=""/>
+</class>
+<class id="160" name="COMPORTEMENT" status="1" semfield="0" inheritancetype="0" comment="Quelque chose que fait quelqu’un et qui semble porter une signification.
+Par exemple, dévorer des gâteaux n’est pas (nécessairement) un comportement.
+Mais s’empiffrer de gâteaux est un comportement – si on dit « s’empiffrer »,
+c’est qu’on associe une signification particulière à ce que fait la personne.
+Voir aussi la différence entre « insulter » et « être insultant » (comportement).">
+<class id="115" name="ATTITUDE" status="1" semfield="0" inheritancetype="0" comment="Comportement qui consiste à « se positionner » (au sens le plus large)
+d’une certaine façon vis-à-vis de quelque chose.
+Contenu statique.">
+<class id="562" name="SENTIMENT_ET_ATTITUDE_CORRESPONDANTE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="627" name="sentiment et attitude correspondante" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="124" name="attitude" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="867" name="avoir une certaine attitude" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="881" name="qui a/traduit une certaine attitude" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="882" name="en ayant/traduisant une certaine attitude" status="1" derivation="Adv1" acttype="" comment=""/>
+<instance id="929" name="individu qui a une certaine attitude" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<class id="152" name="CHANGEMENT_DE_COMPORTEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="170" name="changement de comportement" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="871" name="changer de comportement" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="720" name="HABITUDE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="406" name="individu qui a une habitude donnée" status="1" derivation="S1" acttype="0" comment=""/>
+<instance id="930" name="habitude" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="931" name="avoir une habitude donnée" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="932" name="relatif à une habitude" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="933" name="qui a une habitude donnée" status="1" derivation="A1" acttype="0" comment=""/>
+</class>
+<class id="411" name="MANIFESTATION_D’UN_ÉTAT_PSYCHIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="462" name="manifestation d’un état psychique" status="1" derivation="---" acttype="" comment=""/>
+<instance id="869" name="manifester un état psychique" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="180" name="avoir un certain comportement" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="181" name="comportement" status="1" derivation="---" acttype="" comment="Les noms de comportement ont une ambivalence sémantique (presque ?) systématique : « Violence de Marcel » ~ « Violence du geste de Marcel »."/>
+<instance id="182" name="qui a/traduit un certain comportement" status="1" derivation="A1" acttype="" comment="L’option ‘a/traduit’ rend compte de l’ambivalence sémantique de ces adjectifs, héritée de l’ambivalence des noms correspondants. « Violence de Marcel » ~ « Violence du geste de Marcel »."/>
+<instance id="395" name="individu qui a un certain comportement" status="1" derivation="S1" acttype="0" comment=""/>
+<instance id="880" name="en ayant/traduisant un certain comportement" status="1" derivation="Adv1" acttype="" comment="L’option ‘a/traduit’ rend compte de l’ambivalence sémantique de ces adverbes, héritée de l’ambivalence des noms correspondants. « Violence de Marcel » ~ « Violence du geste de Marcel »."/>
+<instance id="883" name="qui a un certain comportement" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="884" name="qui traduit un certain comportement" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="936" name="être animé qui a un certain comportement" status="1" derivation="S1" acttype="0" comment=""/>
+<instance id="937" name="causer un comportement" status="1" derivation="Caus" acttype="0" comment=""/>
+</class>
+<class id="231" name="ENSEMBLE_DE_FAITS" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="232" name="ENSEMBLE_DE_FAITS_D’UN_CERTAIN_TYPE" status="1" semfield="0" inheritancetype="2" comment="">
+<class id="251" name="ENSEMBLE_INCOHÉRENT_[DE_FAITS]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="279" name="ensemble incohérent [de faits]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="261" name="ensemble de faits d’un certain type" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="233" name="ENSEMBLE_DE_FAITS_OU_PÉRIODE_CORRESPONDANTE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="262" name="ensemble de faits ou période correspondante" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="228" name="ENSEMBLE_DE_CESSATIONS_D’ACTIVITÉ" status="1" semfield="0" inheritancetype="1" comment="Pour HÉCATOMBE#II.">
+<instance id="257" name="ensemble de cessations d’activité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="260" name="ensemble de faits" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="646" name="ÉTAT" status="1" semfield="0" inheritancetype="0" comment="non agentif, transitoire [on transite par un état]">
+<class id="706" name="CONFIGURATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="852" name="configuration" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="670" name="POSITION" status="1" semfield="0" inheritancetype="0" comment="Se distingue de POSITIONNEMENT, qui est une caractéristique.">
+<instance id="749" name="qui est dans une certaine position" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="750" name="position" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="647" name="ÉTAT_D’ACTIVITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="291" name="FAIT_D’ÊTRE_EN_COURS" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="326" name="en cours" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="327" name="fait d’être en cours" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="305" name="FONCTIONNEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="348" name="en état de fonctionnement" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="349" name="fonctionnement" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="720" name="état d’activité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="648" name="ÉTAT_D’ATTENTE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="721" name="en attente" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="722" name="état d’attente" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="650" name="ÉTAT_D’UN_LIEU" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="725" name="état d’un lieu" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="651" name="ÉTAT_PHYSIOLOGIQUE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="678" name="ÉTAT_DE_MORT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="769" name="état de mort" status="1" derivation="---" acttype="" comment=""/>
+<instance id="770" name="être mort" status="1" derivation="V0" acttype="" comment=""/>
+<instance id="771" name="qui est mort" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="772" name="[un] être qui est mort" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<class id="605" name="TROUBLE_PHYSIOLOGIQUE" status="1" semfield="1" inheritancetype="0" comment="Double héritage ‘phénomène phisiologique’ et ‘état physiologique’ à confirmer.">
+<class id="68" name="ALTÉRATION_DE_LA_PEAU" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="76" name="altération de la peau" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="409" name="MALADIE" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="460" name="maladie" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="980" name="relatif à une maladie" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="981" name="qui a une maladie" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="982" name="être animé atteint d’une maladie" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<instance id="674" name="trouble physiologique" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="901" name="relatif à un trouble physiologique" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="902" name="qui est atteint d’un trouble physiologique" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="903" name="être animé atteint d’un trouble physiologique" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<instance id="726" name="état physiologique" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="990" name="être dans un certain état physiologique" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="991" name="qui est dans un certain état physiologique" status="1" derivation="A1" acttype="0" comment=""/>
+</class>
+<class id="652" name="ÉTAT_PHYSIQUE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="219" name="DÉGRADATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="247" name="dégradation" status="1" derivation="---" acttype="" comment=""/>
+<instance id="248" name="dégradé" status="1" derivation="A1" acttype="" comment=""/>
+</class>
+<class id="214" name="DOMMAGE_PHYSIQUE" status="1" semfield="0" inheritancetype="2" comment="Les sous-étiquettes auront noramlement deux mères, une prédicative et une quasi-prédicative. C’est la mère mère quasi-prédicative qui domine. Par exemple, PLAIE -> avant tout qqch. qui est dans un certain état et, de façon secondaire, un dommage physique.">
+<class id="408" name="LÉSION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="459" name="lésion" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="239" name="dommage physique" status="1" derivation="---" acttype="" comment=""/>
+<instance id="240" name="endommagé" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="241" name="qqch. d’endommagé" status="1" derivation="S1" acttype="" comment=""/>
+</class>
+<instance id="727" name="état physique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="653" name="ÉTAT_PSYCHIQUE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="205" name="DISPOSITION_PSYCHIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="230" name="disposition psychique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="649" name="ÉTAT_D’ESPRIT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="723" name="dans un certain état d’esprit" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="724" name="état d’esprit" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="274" name="FAIT_DE_CROIRE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="304" name="fait de croire" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="288" name="FAIT_DE_VOULOIR" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="259" name="ENVIE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="260" name="ENVIE_SEXUELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="288" name="envie sexuelle" status="1" derivation="---" acttype="" comment=""/>
+<instance id="289" name="éprouver une envie sexuelle" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="287" name="envie" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="387" name="INTENTION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="437" name="intention" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="321" name="fait de vouloir" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="459" name="OPINION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="517" name="avoir une certaine opinion" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="518" name="opinion" status="1" derivation="---" acttype="" comment=""/>
+<instance id="866" name="qui a une certaine opinion" status="1" derivation="A1" acttype="" comment=""/>
+</class>
+<class id="124" name="SENSATION_PSYCHIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="133" name="sensation psychique" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="946" name="qui éprouve une sensation psychique" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="947" name="qui cause une sensation psychique" status="1" derivation="A2" acttype="0" comment=""/>
+<instance id="948" name="éprouver une sensation psychique" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="561" name="SENTIMENT" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="633" name="ÉMOTION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="702" name="émotion" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="969" name="éprouver une émotion" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="970" name="relatif à une émotion" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="971" name="qui éprouve une émotion" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="972" name="qui cause une émotion" status="1" derivation="A2" acttype="0" comment=""/>
+<instance id="973" name="causer une émotion" status="1" derivation="V0Convij" acttype="0" comment=""/>
+</class>
+<class id="562" name="SENTIMENT_ET_ATTITUDE_CORRESPONDANTE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="627" name="sentiment et attitude correspondante" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="164" name="fait de provoquer un sentiment" status="1" derivation="Convij" acttype="0" comment=""/>
+<instance id="165" name="provoquer un sentiment" status="1" derivation="V0Convij" acttype="0" comment="Conv-ij, à ne pas confondre avec le Caus :
+‘causer un sentiment’."/>
+<instance id="622" name="objet d’un sentiment" status="1" derivation="S2" acttype="0" comment=""/>
+<instance id="623" name="qui est la manifestation d’un sentiment" status="1" derivation="A2Manif" acttype="0" comment=""/>
+<instance id="624" name="qui éprouve un sentiment" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="625" name="sentiment" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="626" name="éprouver un sentiment" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="896" name="en éprouvant un sentiment" status="1" derivation="Adv0" acttype="0" comment=""/>
+<instance id="898" name="être animé qui éprouve un sentiment" status="1" derivation="S1" acttype="0" comment=""/>
+<instance id="900" name="relatif à un sentiment" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="911" name="qui est l’objet d’un sentiment" status="1" derivation="A2" acttype="0" comment=""/>
+<instance id="938" name="susceptible de provoquer un sentiment" status="1" derivation="Able2" acttype="0" comment=""/>
+<instance id="939" name="causer un sentiment" status="1" derivation="Caus" acttype="0" comment="Caus, à ne pas confondre avec le Conv-ij :
+‘provoquer un sentiment’."/>
+</class>
+<instance id="728" name="état psychique" status="1" derivation="---" acttype="1" comment=""/>
+</class>
+<class id="568" name="SITUATION" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="24" name="ACCORD" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="24" name="accord" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="569" name="SITUATION_CONFLICTUELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="635" name="situation conflictuelle" status="" derivation="---" acttype="" comment=""/>
+</class>
+<class id="570" name="SITUATION_DIFFICILE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="571" name="SITUATION_DIFFICILE_SYMBOLISÉE_PAR_UN_ÉLÉMENT_DU_RELIEF" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="637" name="situation difficile symbolisée par un élément du relief" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="636" name="situation difficile" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="574" name="SITUATION_PERSONNELLE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="573" name="SITUATION_MATÉRIELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="639" name="situation matérielle" status="1" derivation="---" acttype="" comment=""/>
+<instance id="768" name="être dans une certaine situation matérielle" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<class id="575" name="SITUATION_SOCIALE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="572" name="SITUATION_FAMILIALE" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="638" name="situation familiale" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="641" name="situation sociale" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="640" name="situation personnelle" status="" derivation="---" acttype="" comment=""/>
+</class>
+<class id="389" name="ISOLEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="439" name="isolement" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="164" name="CONFLIT_ARMÉ" status="1" semfield="1" inheritancetype="1" comment="À la fois un Sub de ‘confrontation armée’, ‘situation’ et ‘processus social’. Noter qu’une bataille est une confrontation mais qu’une guerre est un conflit armé (type particulier de confrontation).">
+<instance id="186" name="conflit armé" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="707" name="FAIT_D’AVOIR_[QQCH.]" status="" semfield="0" inheritancetype="0" comment="">
+<instance id="853" name="fait d’avoir [qqch.]" status="1" derivation="---" acttype="" comment=""/>
+<instance id="854" name="avoir [qqch.]" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="855" name="qqch. que l’on a" status="1" derivation="S2" acttype="" comment=""/>
+</class>
+<class id="671" name="SITUATION_RELATIONNELLE_[ENTRE_PERSONNES]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="751" name="situation relationnelle [entre personnes]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="633" name="qui est dans une certaine situation" status="1" derivation="A1" acttype="" comment=""/>
+<instance id="634" name="situation" status="1" derivation="---" acttype="" comment=""/>
+<instance id="792" name="être dans une certaine situation" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="718" name="état" status="1" derivation="---" acttype="" comment=""/>
+<instance id="719" name="être dans un certain état" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<class id="659" name="ÉVÈNEMENT" status="1" semfield="0" inheritancetype="0" comment="Dénote un ait ponctuel + le premier actant est non-agent, et qui intègre un changement d’état de qqch.">
+<class id="662" name="ÉVÈNEMENT_NON_PRÉVISIBLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="737" name="évènement non prévisible" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="663" name="ÉVÈNEMENT_NON_SOUHAITABLE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="625" name="ÉCHEC" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="626" name="ÉCHEC_FINANCIER" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="695" name="échec financier" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="694" name="échec" status="1" derivation="---" acttype="" comment=""/>
+<instance id="795" name="échouer" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="661" name="ÉVÈNEMENT_GRAVE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="488" name="PERTE_DE_VIES" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="547" name="perte de vies" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="736" name="évènement grave" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="222" name="DÉPLACEMENT_ACCIDENTEL" status="1" semfield="0" inheritancetype="1" comment="">
+<class id="154" name="CHUTE_ACCIDENTELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="172" name="chute accidentelle" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="251" name="déplacement accidentel" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="738" name="évènement non souhaitable" status="1" derivation="---" acttype="" comment=""/>
+<instance id="800" name="être impliqué dans un évènement non souhaitable" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<class id="660" name="ÉVÈNEMENT_SOCIAL" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="581" name="SPECTACLE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="156" name="COMBAT_QUI_EST_UN_SPECTACLE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="174" name="combat qui est un spectacle" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="648" name="spectacle" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="163" name="ÉVÈNEMENT_SPORTIF" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="185" name="évènement sportif" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="891" name="partie d’un évènement sportif" status="1" derivation="PartOf" acttype="0" comment=""/>
+</class>
+<class id="557" name="RASSEMBLEMENT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="618" name="rassemblement" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="892" name="individu qui participe à un rassemblement" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<instance id="735" name="évènement social" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="888" name="relatif à un évènement social" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="889" name="participer à un évènement social" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="890" name="partie d’un évènement social" status="1" derivation="PartOf" acttype="0" comment=""/>
+</class>
+<class id="149" name="CESSATION_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="150" name="CESSATION_D’ACTIVITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="228" name="ENSEMBLE_DE_CESSATIONS_D’ACTIVITÉ" status="1" semfield="0" inheritancetype="1" comment="Pour HÉCATOMBE#II.">
+<instance id="257" name="ensemble de cessations d’activité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="168" name="cessation d’activité" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="166" name="cessation [de qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="167" name="cesser" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="157" name="COMMENCEMENT_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="175" name="commencement [de qqch.]" status="1" derivation="---" acttype="" comment=""/>
+<instance id="868" name="commencer" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<class id="690" name="ÉVÈNEMENT_SOUHAITABLE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="691" name="RÉUSSITE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="279" name="FAIT_DE_GAGNER" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="280" name="FAIT_DE_GAGNER_DANS_UNE_CONFRONTATION" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="311" name="fait de gagner dans une confrontation" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="281" name="FAIT_DE_GAGNER_DANS_UNE_LUTTE_SOCIALE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="312" name="fait de gagner dans une lutte sociale" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="310" name="fait de gagner" status="1" derivation="---" acttype="" comment=""/>
+<instance id="794" name="gagner" status="" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="798" name="réussite" status="1" derivation="---" acttype="" comment=""/>
+<instance id="799" name="réussir" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="796" name="évènement souhaitable" status="1" derivation="---" acttype="" comment=""/>
+<instance id="797" name="être impliqué dans un évènement souhaitable" status="1" derivation="V0" acttype="" comment=""/>
+</class>
+<instance id="734" name="évènement" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="492" name="PHÉNOMÈNE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="56" name="ACTIVITÉ_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="60" name="ACTIVITÉ_D’UN_LIEU" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="66" name="activité d’un lieu" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="62" name="activité [de qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="495" name="PHÉNOMÈNE_PHYSIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="62" name="ADHÉRENCE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="68" name="adhérence" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="69" name="adhérer" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="566" name="SILENCE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="567" name="SILENCE_OU_SIGNE_MUSICAL_LE_REPRÉSENTANT" status="1" semfield="0" inheritancetype="2" comment="">
+<instance id="632" name="silence ou signe musical le représentant" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="631" name="silence" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="578" name="SON" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="130" name="BRUIT" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="139" name="bruit" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="140" name="émettre un bruit" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="960" name="qui émet un bruit" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="961" name="relatif à un bruit" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="986" name="en émettant un bruit" status="1" derivation="Adv1" acttype="0" comment=""/>
+</class>
+<class id="393" name="LANCEMENT_D’UN_PROJECTILE_OU_SON_QUI_L’ACCOMPAGNE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="444" name="lancement d’un projectile ou son qui l’accompagne" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="579" name="SON_EXPRESSIF" status="1" semfield="0" inheritancetype="1" comment="">
+<class id="188" name="CRI" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="189" name="CRI_D’ANIMAL" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="212" name="cri d’animal" status="1" derivation="---" acttype="" comment=""/>
+<instance id="945" name="[animal] émettre un cri" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="978" name="[animal] qui émet un cri" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="979" name="relatif à un cri d’animal" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<instance id="211" name="cri" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="975" name="crier" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="976" name="relatif à un cri" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="977" name="qui crie" status="1" derivation="A1" acttype="0" comment=""/>
+</class>
+<class id="703" name="SON MUSICAL" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="830" name="son musical" status="1" derivation="---" acttype="" comment=""/>
+<instance id="831" name="ensemble de sons musicaux" status="1" derivation="SetOf" acttype="" comment=""/>
+</class>
+<instance id="645" name="son expressif" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="646" name="produire un son expressif" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="832" name="ensemble de sons expressifs" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="1015" name="relatif à un son expressif" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<class id="431" name="MOUVEMENT_[DE_QQCH.]_OU_SON_QUI_L’ACCOMPAGNE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="485" name="mouvement [de qqch.] ou son qui l’accompagne" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="964" name="être en mouvement ou produire le son correspondant" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="965" name="qui est en mouvement ou produit le son correspondant" status="1" derivation="A1" acttype="0" comment=""/>
+</class>
+<instance id="644" name="son" status="1" derivation="---" acttype="" comment=""/>
+<instance id="966" name="émettre un son" status="1" derivation="V0" acttype="1" comment=""/>
+<instance id="967" name="qui émet un son" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="968" name="relatif à un son" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<class id="11" name="[UNE]_FORCE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="11" name="[une] force" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="493" name="PHÉNOMÈNE_ATMOSPHÉRIQUE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="529" name="PRÉCIPITATION_ATMOSPHÉRIQUE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="508" name="PLUIE" status="" semfield="0" inheritancetype="0" comment="">
+<instance id="567" name="pluie" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="589" name="précipitation atmosphérique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="552" name="phénomène atmosphérique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="554" name="phénomène physique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="494" name="PHÉNOMÈNE_PHYSIOLOGIQUE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="496" name="PHÉNOMÈNE_VITAL" status="1" semfield="1" inheritancetype="0" comment="Pouls, respiration, circulation sanguine, etc.">
+<instance id="555" name="phénomène vital" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="723" name="RÉACTION_CORPORELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="956" name="réaction corporelle" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="957" name="avoir une certaine réaction corporelle" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="958" name="relatif à une réaction corporelle" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="959" name="qui a une certaine réaction corporelle" status="" derivation="A1" acttype="0" comment=""/>
+</class>
+<class id="560" name="SENSATION_PHYSIQUE" status="1" semfield="0" inheritancetype="0" comment="On considère que, par défaut, la structure actancielle associée à l’étiquette ‘sensation physique’ est ‘~ de X à la partie du corps Y(X) causée par Z’. Les étiquettes dérivées sont encodées en fonction de cette structure actancielle. Cependant, chaque lexie étiquetée peut avoir une structure actancielle autre (où une des positions Y ou Z n’est pas présente).">
+<instance id="621" name="sensation physique" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="949" name="qui éprouve une sensation physique" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="950" name="qui cause une sensation physique" status="1" derivation="A3" acttype="0" comment=""/>
+<instance id="951" name="éprouver une sensation physique" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="952" name="causer une sensation physique" status="1" derivation="V0Convij" acttype="0" comment=""/>
+<instance id="955" name="relatif à une sensation physique" status="1" derivation="A0" acttype="0" comment=""/>
+</class>
+<class id="605" name="TROUBLE_PHYSIOLOGIQUE" status="1" semfield="1" inheritancetype="0" comment="Double héritage ‘phénomène phisiologique’ et ‘état physiologique’ à confirmer.">
+<class id="68" name="ALTÉRATION_DE_LA_PEAU" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="76" name="altération de la peau" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="409" name="MALADIE" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="460" name="maladie" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="980" name="relatif à une maladie" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="981" name="qui a une maladie" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="982" name="être animé atteint d’une maladie" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<instance id="674" name="trouble physiologique" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="901" name="relatif à un trouble physiologique" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="902" name="qui est atteint d’un trouble physiologique" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="903" name="être animé atteint d’un trouble physiologique" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<instance id="553" name="phénomène physiologique" status="1" derivation="---" acttype="1" comment=""/>
+</class>
+<class id="716" name="PHÉNOMÈNE_PSYCHIQUE" status="1" semfield="1" inheritancetype="0" comment="">
+<class id="717" name="TROUBLE_PSYCHIQUE" status="1" semfield="1" inheritancetype="0" comment="">
+<instance id="904" name="trouble psychique" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="905" name="qui est atteint d’un trouble psychique" status="1" derivation="A1" acttype="0" comment=""/>
+<instance id="906" name="relatif à un trouble psychique" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="907" name="être animé atteint d’un trouble psychique" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<instance id="908" name="phénomène psychique" status="1" derivation="---" acttype="1" comment=""/>
+</class>
+<instance id="551" name="phénomène" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="521" name="PROCESSUS" status="1" semfield="0" inheritancetype="0" comment="Fait non ponctuel dont le premier actant est non-agent, et qui intègre un changement d’état de qqch.">
+<class id="525" name="PROCESSUS_SOCIAL" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="164" name="CONFLIT_ARMÉ" status="1" semfield="1" inheritancetype="1" comment="À la fois un Sub de ‘confrontation armée’, ‘situation’ et ‘processus social’. Noter qu’une bataille est une confrontation mais qu’une guerre est un conflit armé (type particulier de confrontation).">
+<instance id="186" name="conflit armé" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="584" name="processus social" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="524" name="PROCESSUS_PHYSIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="673" name="CHANGEMENT_D’APPARENCE_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="755" name="changement d’apparence [de qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="756" name="[qqch.] changer d’apparence" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="674" name="CHANGEMENT_DE_STRUCTURE_PHYSIQUE_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="760" name="changement de structure physique [de qqch.]" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="761" name="[qqch.] changer de structure physique" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="688" name="CHANGEMENT_DE_FORME" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="789" name="changement de forme" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="790" name="changer de forme" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="687" name="CHANGEMENT_DE_VITESSE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="787" name="changement de vitesse" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="788" name="changer de vitesse" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="430" name="MOUVEMENT_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="431" name="MOUVEMENT_[DE_QQCH.]_OU_SON_QUI_L’ACCOMPAGNE" status="1" semfield="0" inheritancetype="1" comment="">
+<instance id="485" name="mouvement [de qqch.] ou son qui l’accompagne" status="1" derivation="---" acttype="0" comment=""/>
+<instance id="964" name="être en mouvement ou produire le son correspondant" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="965" name="qui est en mouvement ou produit le son correspondant" status="1" derivation="A1" acttype="0" comment=""/>
+</class>
+<class id="221" name="DÉPLACEMENT_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="222" name="DÉPLACEMENT_ACCIDENTEL" status="1" semfield="0" inheritancetype="1" comment="">
+<class id="154" name="CHUTE_ACCIDENTELLE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="172" name="chute accidentelle" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<instance id="251" name="déplacement accidentel" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="250" name="déplacement [de qqch.]" status="1" derivation="---" acttype="" comment=""/>
+<instance id="791" name="[qqch.] se déplacer" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<instance id="484" name="mouvement [de qqch.]" status="1" derivation="---" acttype="" comment=""/>
+<instance id="962" name="être en mouvement" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="963" name="qui est en mouvement" status="1" derivation="A1" acttype="0" comment=""/>
+</class>
+<class id="522" name="PROCESSUS_BIOLOGIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="581" name="processus biologique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="583" name="processus physique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="523" name="PROCESSUS_PHYSIOLOGIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="69" name="AMÉLIORATION_DE_L’ÉTAT_PHYSIOLOGIQUE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="77" name="amélioration de l’état physiologique" status="1" derivation="---" acttype="0" comment=""/>
+</class>
+<class id="158" name="COMMENCEMENT_D’UNE_VIE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="176" name="commencement d’une vie" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="299" name="FIN_D’UNE_VIE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="339" name="cesser de vivre" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="340" name="fin d’une vie" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="582" name="processus physiologique" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="580" name="processus" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="543" name="RELATION" status="1" semfield="0" inheritancetype="0" comment="Relation entre faits ou entités.">
+<class id="147" name="FAIT DE CAUSER" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="161" name="fait de causer" status="1" derivation="---" acttype="" comment=""/>
+<instance id="162" name="à cause [de]" status="1" derivation="Adv0" acttype="" comment=""/>
+<instance id="163" name="cause" status="1" derivation="S1" acttype="0" comment=""/>
+<instance id="765" name="causer" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="172" name="CONSÉQUENCE" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="194" name="conséquence" status="1" derivation="---" acttype="" comment=""/>
+<instance id="894" name="être la conséquence" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="181" name="CORRESPONDANCE_[ENTRE_PLUSIEURS_CHOSES]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="202" name="[plusieurs choses] correspondre" status="1" derivation="V0" acttype="0" comment=""/>
+<instance id="203" name="correspondance [entre plusieurs choses]" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="278" name="FAIT_DE_FAVORISER_[QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="308" name="fait de favoriser [qqch.]" status="1" derivation="---" acttype="" comment=""/>
+<instance id="309" name="ce qui favorise [qqch.]" status="1" derivation="S1" acttype="0" comment=""/>
+</class>
+<class id="290" name="FAIT_D’EMPÊCHER_[QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="323" name="empêcher [qqch.]" status="1" derivation="V0" acttype="" comment=""/>
+<instance id="324" name="fait d’empêcher [qqch.]" status="1" derivation="---" acttype="" comment=""/>
+<instance id="325" name="fait qui empêche [qqch.]" status="1" derivation="S1" acttype="" comment=""/>
+</class>
+<class id="292" name="FAIT_D’ÊTRE_RÉUNIS" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="328" name="fait d’être réunis" status="1" derivation="---" acttype="" comment=""/>
+<instance id="329" name="qui sont réunis" status="1" derivation="A1" acttype="" comment=""/>
+</class>
+<class id="542" name="RAISON_[DE_QQCH.]" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="603" name="raison [de qqch.]" status="1" derivation="---" acttype="" comment=""/>
+<instance id="893" name="être la raison [de qqch.]" status="1" derivation="V0" acttype="0" comment=""/>
+</class>
+<class id="550" name="RESPONSABILITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="610" name="responsabilité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="748" name="relation" status="1" derivation="---" acttype="1" comment=""/>
+<instance id="1013" name="être en relation" status="1" derivation="A0" acttype="0" comment=""/>
+<instance id="1014" name="qui est en relation" status="1" derivation="A1" acttype="0" comment=""/>
+</class>
+<class id="540" name="QUANTITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<class id="318" name="GRANDE_QUANTITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="364" name="grande quantité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<class id="491" name="PETITE_QUANTITÉ" status="1" semfield="0" inheritancetype="0" comment="">
+<instance id="550" name="petite quantité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="601" name="quantité" status="1" derivation="---" acttype="" comment=""/>
+</class>
+<instance id="303" name="fait" status="1" derivation="---" acttype="" comment=""/>
+<instance id="793" name="avoir lieu" status="1" derivation="V0" acttype="0" comment="Étiquette notamment de verbes supports de type Func0."/>
+</class>
+<instance id="595" name="qqch." status="1" derivation="---" acttype="1" comment=""/>
+</class>
+</model>

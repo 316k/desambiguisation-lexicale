@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE model[
+<!ELEMENT model (characteristic)+>
+
+<!ELEMENT characteristic (characteristic)*>
+<!ATTLIST characteristic
+id CDATA #REQUIRED
+name CDATA #REQUIRED
+status CDATA #REQUIRED
+type CDATA #REQUIRED>
+]>
+<model>
+<characteristic id="2" name="MARQUES D’USAGE" type="0" status="0">
+<characteristic id="3" name="Marques d’usage langagier" type="0" status="0">
+<characteristic id="6" name="spéc" type="1" status="0"/>
+<characteristic id="61" name="rare" type="1" status="0"/>
+<characteristic id="159" name="emploi peut être critiqué" type="1" status="0"/>
+<characteristic id="126" name="néol" type="1" status="0"/>
+<characteristic id="8" name="vieillissant" type="1" status="0"/>
+<characteristic id="7" name="vieilli" type="1" status="0"/>
+<characteristic id="178" name="obsol" type="1" status="0"/>
+<characteristic id="226" name="fict" type="1" status="0"/>
+<characteristic id="105" name="argot" type="1" status="0"/>
+<characteristic id="127" name="rég" type="1" status="0"/>
+<characteristic id="5" name="angl" type="1" status="0"/>
+<characteristic id="211" name="citation" type="1" status="0"/>
+<characteristic id="212" name="fourchelangue" type="1" status="0"/>
+<characteristic id="187" name="abrév" type="1" status="0"/>
+<characteristic id="183" name="Québec" type="1" status="0"/>
+<characteristic id="66" name="! %1" type="1" status="0"/>
+</characteristic>
+<characteristic id="9" name="Marques d’usage stylistique" type="0" status="0">
+<characteristic id="103" name="enfantin" type="1" status="0"/>
+<characteristic id="10" name="fam" type="1" status="0"/>
+<characteristic id="11" name="formel" type="1" status="0"/>
+<characteristic id="12" name="litt" type="1" status="0"/>
+<characteristic id="104" name="milit" type="1" status="0"/>
+<characteristic id="160" name="soutenu" type="1" status="0"/>
+<characteristic id="13" name="vulg" type="1" status="0"/>
+<characteristic id="62" name="! %1" type="1" status="0"/>
+</characteristic>
+<characteristic id="14" name="Marques d’usage rhétorique" type="0" status="0">
+<characteristic id="15" name="affectueux" type="1" status="0"/>
+<characteristic id="106" name="iron" type="1" status="0"/>
+<characteristic id="16" name="péjor" type="1" status="0"/>
+<characteristic id="158" name="péjor (ou alors vieilli)" type="1" status="0"/>
+<characteristic id="185" name="peut être offensant" type="1" status="0"/>
+<characteristic id="67" name="! %1" type="1" status="0"/>
+</characteristic>
+<characteristic id="68" name="! %1" type="1" status="0"/>
+</characteristic>
+<characteristic id="17" name="CARACTÉRISTIQUES GRAMMATICALES FONDAMENTALES" type="0" status="0">
+<characteristic id="18" name="Partie du discours" type="0" status="0">
+<characteristic id="109" name="V" type="0" status="0">
+<characteristic id="23" name="verbe" type="2" status="0"/>
+<characteristic id="24" name="verbe pronominal" type="2" status="0"/>
+<characteristic id="78" name="locution verbale" type="2" status="0"/>
+<characteristic id="195" name="syntagme verbal" type="2" status="0"/>
+<characteristic id="110" name="! %1" type="2" status="0"/>
+</characteristic>
+<characteristic id="111" name="N" type="0" status="0">
+<characteristic id="20" name="nom commun" type="2" status="0"/>
+<characteristic id="21" name="locution nominale" type="2" status="0"/>
+<characteristic id="92" name="nom propre" type="2" status="0"/>
+<characteristic id="196" name="locution nominale nom propre" type="2" status="0"/>
+<characteristic id="80" name="numéral" type="2" status="0"/>
+<characteristic id="216" name="numéral nom propre" type="2" status="0"/>
+<characteristic id="197" name="locution numérale" type="2" status="0"/>
+<characteristic id="241" name="syntagme numéral" type="2" status="0"/>
+<characteristic id="81" name="pronom" type="2" status="0"/>
+<characteristic id="86" name="pronom clitique" type="2" status="0"/>
+<characteristic id="217" name="pronom interrogatif" type="2" status="0"/>
+<characteristic id="95" name="pronom personnel" type="2" status="0"/>
+<characteristic id="85" name="pronom relatif" type="2" status="0"/>
+<characteristic id="97" name="locution pronominale" type="2" status="0"/>
+<characteristic id="240" name="radical nominal" type="2" status="0"/>
+<characteristic id="192" name="syntagme nominal" type="2" status="0"/>
+<characteristic id="246" name="syntagme pronominal" type="2" status="0"/>
+<characteristic id="112" name="! %1" type="2" status="0"/>
+</characteristic>
+<characteristic id="113" name="Adj" type="0" status="0">
+<characteristic id="19" name="adjectif" type="2" status="0"/>
+<characteristic id="154" name="locution adjectivale" type="2" status="0"/>
+<characteristic id="253" name="radical adjectival" type="2" status="0"/>
+<characteristic id="193" name="syntagme adjectival" type="2" status="0"/>
+<characteristic id="114" name="! %1" type="2" status="0"/>
+</characteristic>
+<characteristic id="115" name="Adv" type="0" status="0">
+<characteristic id="63" name="adverbe" type="2" status="0"/>
+<characteristic id="89" name="locution adverbiale" type="2" status="0"/>
+<characteristic id="223" name="particule adverbiale" type="2" status="0"/>
+<characteristic id="200" name="syntagme adverbial" type="2" status="0"/>
+<characteristic id="116" name="! %1" type="2" status="0"/>
+</characteristic>
+<characteristic id="117" name="Claus" type="0" status="0">
+<characteristic id="82" name="interjection" type="2" status="0"/>
+<characteristic id="202" name="locution interjective" type="2" status="0"/>
+<characteristic id="204" name="syntagme interjectif" type="2" status="0"/>
+<characteristic id="181" name="onomatopée" type="2" status="0"/>
+<characteristic id="235" name="clausatif adverbial" type="2" status="0"/>
+<characteristic id="94" name="clausatif coordinatif" type="2" status="0"/>
+<characteristic id="209" name="clausatif nominal" type="2" status="0"/>
+<characteristic id="210" name="clausatif prépositionnel" type="2" status="0"/>
+<characteristic id="203" name="locution propositionnelle" type="2" status="0"/>
+<characteristic id="164" name="locution phrastique" type="2" status="0"/>
+<characteristic id="205" name="phrase" type="2" status="0"/>
+<characteristic id="118" name="! %1" type="2" status="0"/>
+</characteristic>
+<characteristic id="119" name="Dét" type="0" status="0">
+<characteristic id="79" name="article" type="2" status="0"/>
+<characteristic id="230" name="adjectif déterminatif" type="2" status="0"/>
+<characteristic id="77" name="pronom déterminatif" type="2" status="0"/>
+<characteristic id="213" name="locution déterminative" type="2" status="0"/>
+<characteristic id="120" name="! %1" type="2" status="0"/>
+</characteristic>
+<characteristic id="121" name="Prép" type="0" status="0">
+<characteristic id="64" name="préposition" type="2" status="0"/>
+<characteristic id="214" name="préposition partitive" type="2" status="0"/>
+<characteristic id="22" name="locution prépositionnelle" type="2" status="0"/>
+<characteristic id="194" name="syntagme prépositionnel" type="2" status="0"/>
+<characteristic id="122" name="! %1" type="2" status="0"/>
+</characteristic>
+<characteristic id="123" name="Conj" type="0" status="0">
+<characteristic id="83" name="conjonction" type="2" status="0"/>
+<characteristic id="155" name="locution conjonctive" type="2" status="0"/>
+<characteristic id="225" name="syntagme conjonctif" type="2" status="0"/>
+<characteristic id="124" name="! %1" type="2" status="0"/>
+</characteristic>
+<characteristic id="218" name="Affixe" type="0" status="0">
+<characteristic id="219" name="préfixe" type="2" status="0"/>
+<characteristic id="220" name="suffixe" type="2" status="0"/>
+<characteristic id="221" name="! %1" type="2" status="0"/>
+</characteristic>
+<characteristic id="228" name="Construction" type="0" status="0">
+<characteristic id="227" name="construction lexicalisée" type="2" status="0"/>
+<characteristic id="229" name="construction syntaxique" type="2" status="0"/>
+</characteristic>
+</characteristic>
+<characteristic id="25" name="Genre" type="0" status="0">
+<characteristic id="26" name="fém" type="0" status="0"/>
+<characteristic id="27" name="fém, s’emploie aussi au masc" type="0" status="0"/>
+<characteristic id="28" name="masc" type="0" status="0"/>
+<characteristic id="29" name="masc, s’emploie aussi au fém" type="0" status="0"/>
+<characteristic id="224" name="masc ou fém, en fonction du complément" type="0" status="0"/>
+<characteristic id="69" name="! %1" type="0" status="0"/>
+</characteristic>
+<characteristic id="30" name="Partie du discours profonde" type="0" status="0">
+<characteristic id="31" name="emploi adjectival" type="0" status="0"/>
+<characteristic id="32" name="emploi adverbial" type="0" status="0"/>
+<characteristic id="93" name="emploi adjectival et adverbial" type="0" status="0"/>
+<characteristic id="162" name="emploi adverbial et adjectival" type="0" status="0"/>
+<characteristic id="99" name="emploi appositif" type="0" status="0"/>
+<characteristic id="150" name="emploi attributif" type="0" status="0"/>
+<characteristic id="90" name="emploi clausatif" type="0" status="0"/>
+<characteristic id="34" name="emploi interjectif" type="0" status="0"/>
+<characteristic id="153" name="emploi quantitatif" type="0" status="0"/>
+<characteristic id="70" name="! %1" type="0" status="0"/>
+</characteristic>
+<characteristic id="165" name="Statut lexical" type="0" status="0">
+<characteristic id="166" name="locution forte" type="0" status="0"/>
+<characteristic id="167" name="semi-locution" type="0" status="0"/>
+<characteristic id="168" name="locution faible" type="0" status="0"/>
+<characteristic id="161" name="lexie inactive" type="0" status="0"/>
+<characteristic id="180" name="lexie régulière" type="0" status="0"/>
+<characteristic id="169" name="proverbe" type="0" status="0"/>
+<characteristic id="170" name="cliché linguistique" type="2" status="0"/>
+<characteristic id="173" name="pragmatème" type="0" status="0"/>
+<characteristic id="171" name="collocation" type="0" status="0"/>
+<characteristic id="172" name="syntagme libre" type="0" status="0"/>
+<characteristic id="252" name="impersonnel" type="0" status="0"/>
+</characteristic>
+<characteristic id="191" name="Étiq. sém. proposée : ‘%1’" type="0" status="0"/>
+<characteristic id="71" name="! %1" type="0" status="0"/>
+</characteristic>
+<characteristic id="35" name="FLEXION ET AUTRES CARACTÉRISTIQUES FORMELLES" type="0" status="0">
+<characteristic id="59" name="Détermination et nombre" type="0" status="0">
+<characteristic id="38" name="déf" type="0" status="0"/>
+<characteristic id="49" name="seulement avec l’art déf" type="0" status="0"/>
+<characteristic id="129" name="déf sg" type="0" status="0"/>
+<characteristic id="40" name="déf pl" type="0" status="0"/>
+<characteristic id="182" name="surtout déf" type="0" status="0"/>
+<characteristic id="43" name="indéf" type="0" status="0"/>
+<characteristic id="163" name="indéf sing" type="0" status="0"/>
+<characteristic id="54" name="surtout indéf" type="0" status="0"/>
+<characteristic id="50" name="sg" type="0" status="0"/>
+<characteristic id="56" name="surtout sg" type="0" status="0"/>
+<characteristic id="100" name="surtout déf sg" type="0" status="0"/>
+<characteristic id="47" name="pl" type="0" status="0"/>
+<characteristic id="55" name="surtout pl" type="0" status="0"/>
+<characteristic id="244" name="surtout déf pl" type="0" status="0"/>
+<characteristic id="248" name="généralement sans déterminant" type="0" status="0"/>
+<characteristic id="247" name="peut s’employer sans déterminant au déf" type="0" status="0"/>
+<characteristic id="73" name="! %1" type="0" status="0"/>
+</characteristic>
+<characteristic id="60" name="Temps, mode, voix et autres" type="0" status="0">
+<characteristic id="37" name="de-pass" type="0" status="0"/>
+<characteristic id="45" name="pas de passif" type="0" status="0"/>
+<characteristic id="48" name="pronominal %1" type="0" status="0"/>
+<characteristic id="51" name="surtout au passif" type="0" status="0"/>
+<characteristic id="215" name="performatif" type="0" status="0"/>
+<characteristic id="74" name="! %1" type="0" status="0"/>
+</characteristic>
+<characteristic id="57" name="Signifiants" type="0" status="0">
+<characteristic id="36" name="au pl : « %1 »" type="0" status="0"/>
+<characteristic id="44" name="invar" type="0" status="0"/>
+<characteristic id="42" name="fém « %1 »" type="0" status="0"/>
+<characteristic id="189" name="sigle (prononciation par syllabe)" type="0" status="0"/>
+<characteristic id="188" name="sigle (prononciation lettre par lettre)" type="0" status="0"/>
+<characteristic id="190" name="sigle (prononciation par syllabe ou lettre par lettre)" type="0" status="0"/>
+<characteristic id="107" name="graphie rectifiée : « %1 »" type="0" status="0"/>
+<characteristic id="233" name="s’écrit aussi avec une majuscule initiale" type="0" status="0"/>
+<characteristic id="108" name="s’écrit aussi sans majuscule initiale" type="0" status="0"/>
+<characteristic id="249" name="s’écrit aussi sans majuscule sur « %1 »" type="0" status="0"/>
+<characteristic id="130" name="s’écrit fréquemment avec une majuscule initiale" type="0" status="0"/>
+<characteristic id="157" name="s’écrit fréquemment avec des majuscules initiales" type="0" status="0"/>
+<characteristic id="131" name="s’écrit aussi « %1 »" type="0" status="0"/>
+<characteristic id="208" name="s’écrit aussi avec un trait d’union (orthographe déconseillée)" type="0" status="0"/>
+<characteristic id="256" name="s’écrit aussi sans trait d’union (orthographe déconseillée)" type="0" status="0"/>
+<characteristic id="98" name="« %1 » peut être omis" type="0" status="0"/>
+<characteristic id="72" name="! %1" type="0" status="0"/>
+</characteristic>
+<characteristic id="255" name="Flexion : %1" type="0" status="0"/>
+<characteristic id="75" name="! %1" type="0" status="0"/>
+</characteristic>
+<characteristic id="132" name="POSITION SYNTAXIQUE" type="0" status="0">
+<characteristic id="138" name="Gouverneurs syntaxiques" type="0" status="0">
+<characteristic id="76" name="collocatif de son gouverneur syntaxique" type="0" status="0"/>
+<characteristic id="139" name="épithète" type="0" status="0"/>
+<characteristic id="242" name="surtout épithète" type="0" status="0"/>
+<characteristic id="140" name="attribut" type="0" status="0"/>
+<characteristic id="231" name="surtout attribut" type="0" status="0"/>
+<characteristic id="222" name="peut s’employer en apposition" type="0" status="0"/>
+<characteristic id="237" name="modificateur de verbe" type="0" status="0"/>
+<characteristic id="238" name="modificateur d’adjectif" type="0" status="0"/>
+<characteristic id="239" name="modificateur de verbe et d’adjectif" type="0" status="0"/>
+<characteristic id="251" name="surtout complément de « %1 »" type="0" status="0"/>
+<characteristic id="141" name="! %1" type="0" status="0"/>
+</characteristic>
+<characteristic id="142" name="Dépendants syntaxiques" type="0" status="0">
+<characteristic id="156" name="impersonnel" type="0" status="0"/>
+<characteristic id="87" name="emploi surtout intransitif" type="0" status="0"/>
+<characteristic id="198" name="surtout avec une négation" type="0" status="0"/>
+<characteristic id="199" name="collocatif de son sujet" type="0" status="0"/>
+<characteristic id="125" name="collocatif de son COD" type="0" status="0"/>
+<characteristic id="232" name="collocatif de son complément" type="0" status="0"/>
+<characteristic id="236" name="souvent collocatif de son complément" type="0" status="0"/>
+<characteristic id="143" name="actants %1 et %2 peuvent être coordonnés" type="0" status="0"/>
+<characteristic id="144" name="! %1" type="0" status="0"/>
+</characteristic>
+<characteristic id="145" name="Autonomie syntaxique" type="0" status="0">
+<characteristic id="250" name="s’emploie surtout avec un verbe support" type="0" status="0"/>
+<characteristic id="184" name="ne s’emploie que dans la locution « %1 »" type="0" status="0"/>
+<characteristic id="201" name="parenthétique" type="0" status="0"/>
+<characteristic id="207" name="peut s’employer de façon parenthétique" type="0" status="0"/>
+<characteristic id="243" name="s’emploie comme adresse (avec ou sans déterminant possessif)" type="0" status="0"/>
+<characteristic id="137" name="s’emploie comme adresse (déterminant obligatoire)" type="0" status="0"/>
+<characteristic id="134" name="s’emploie comme adresse (sans déterminant)" type="0" status="0"/>
+<characteristic id="135" name="s’emploie comme titre d’adresse (sans déterminant)" type="0" status="0"/>
+<characteristic id="136" name="s’emploie comme titre d’adresse (dét. poss. optionnel)" type="0" status="0"/>
+<characteristic id="234" name="s’emploie dans des noms de sociétés" type="0" status="0"/>
+</characteristic>
+<characteristic id="133" name="! %1" type="0" status="0"/>
+</characteristic>
+<characteristic id="146" name="LINÉARISATION" type="0" status="0">
+<characteristic id="147" name="antéposé" type="0" status="0"/>
+<characteristic id="148" name="postposé" type="0" status="0"/>
+<characteristic id="149" name="! %1" type="0" status="0"/>
+</characteristic>
+</model>

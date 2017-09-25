@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE model[
+<!ELEMENT model (type)+>
+
+<!ELEMENT type (subtype)*>
+<!ATTLIST type
+derivation CDATA #REQUIRED
+id CDATA #REQUIRED
+name NMTOKEN #REQUIRED
+order CDATA #REQUIRED
+semantics CDATA #REQUIRED>
+
+<!ELEMENT subtype EMPTY>
+<!ATTLIST subtype
+id CDATA #REQUIRED
+name CDATA #REQUIRED>
+]>
+<model>
+  <type id="3" name="causation" order="1" semantics="2" derivation="1"/>
+  <type id="6" name="résultat" order="2" semantics="2" derivation="1"/>
+  <type id="7" name="conversion" order="3" semantics="2" derivation="1"/>
+  <type id="4" name="spécialisation" order="4" semantics="2" derivation="1">
+    <subtype id="10" name="sous-sens"/>
+  </type>
+  <type id="12" name="généralisation" order="5" semantics="2" derivation="1"/>
+  <type id="5" name="extension" order="6" semantics="1" derivation="1"/>
+  <type id="9" name="intersection" order="7" semantics="1" derivation="0"/>
+  <type id="10" name="antithèse" order="8" semantics="1" derivation="1"/>
+  <type id="2" name="métonymie" order="9" semantics="1" derivation="1">
+    <subtype id="5" name="ensemble de"/>
+    <subtype id="8" name="partie de"/>
+  </type>
+  <type id="1" name="métaphore" order="10" semantics="0" derivation="1">
+    <subtype id="1" name="fonction"/>
+    <subtype id="2" name="forme"/>
+    <subtype id="3" name="utilisation"/>
+    <subtype id="4" name="comme si"/>
+    <subtype id="6" name="fonctionnement"/>
+    <subtype id="7" name="comportement"/>
+    <subtype id="12" name="position"/>
+    <subtype id="13" name="comme si méton."/>
+  </type>
+  <type id="11" name="grammaticalisation" order="11" semantics="0" derivation="0"/>
+  <type id="8" name="codérivation" order="12" semantics="0" derivation="0"/>
+</model>
