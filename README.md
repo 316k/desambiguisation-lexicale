@@ -1,6 +1,6 @@
-# Désambiguiser un mot polysémique par son contexte
+# Désambiguïser des homonymes et mots polysémiques par le contexte
 
-La désambiguisation se fait via le champ lexical du mot donné, tel quel calculé via les arcs entre les noeuds du graphe du système lexical RL-fr (voir attribution plus bas). Le système lexical utilisé est un projet en cours et est encore incomplet.
+La désambiguïsation se fait via le champ lexical du mot donné, tel quel calculé via les arcs entre les noeuds du graphe du système lexical RL-fr (voir attribution plus bas). Le système lexical utilisé est un projet en cours et est encore incomplet.
 
 ## Exemples
 
@@ -27,7 +27,7 @@ Téléchargement ici : https://www.ortolang.fr/market/lexicons/lexical-system-fr
 
 - Les mots sont considérés un à un, les clichés linguistiques, expressions figées, etc. stockés dans le système lexical ne sont pas pris en compte
 
-- Avec un peu plus de travail, le genre des mots pourrait être utilisé pour améliorer la désambiguisation : "une somme" vs "un somme" aiderait à distinguer et le genre des entités du graphe est connu
+- Avec un peu plus de travail, le genre des mots pourrait être utilisé pour améliorer la désambiguïsation : "une somme" vs "un somme" aiderait à distinguer et le genre des entités du graphe est connu
 
 - Le champ lexical pourrait être étendu pour considérer (avec un plus faible poid) les champs lexicaux des mots du champ lexical trouvé :
 
